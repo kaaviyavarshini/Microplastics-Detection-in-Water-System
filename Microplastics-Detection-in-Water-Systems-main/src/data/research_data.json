@@ -1,0 +1,74 @@
+[
+  {
+    "id": "216_2021_Article_3498",
+    "title": "Analysis of microplastics in drinking water and other clean water samples with micro-Raman and micro-infrared spectroscopy",
+    "authors": ["Darena Schymanski", "Barbara E. Oßmann", "Nizar Benismail", "Natalia P. Ivleva"],
+    "publicationYear": 2021,
+    "location": "European Consensus Study",
+    "methodology": "Micro-Raman and micro-infrared (μ-IR) spectroscopy following harmonized sample preparation guidelines.",
+    "keyFindings": [
+      "Established minimum requirements for microplastic analysis in clean water samples.",
+      "Identified critical particle size limits for Raman (1 μm) and IR (10-20 μm) spectroscopy.",
+      "Highlighted importance of blanks and contamination control in analytical labs.",
+      "Proposed a standard data reporting format for polymer types and size distributions."
+    ],
+    "polymerTypesFound": ["PE", "PP", "PET", "PS", "PVC", "PA"],
+    "averageConcentration": "Varies (0-100 particles/L in drinking water)",
+    "waterSourceType": "Drinking Water",
+    "sourceFile": "216_2021_Article_3498.pdf"
+  },
+  {
+    "id": "2410.19604v1",
+    "title": "AI-Driven Detection and Classification of Microplastics in Urban Water Systems",
+    "authors": ["R. Kumar", "A. Sharma", "S. Gupta"],
+    "publicationYear": 2024,
+    "location": "New Delhi, India",
+    "methodology": "Deep Learning (CNN) combined with Automated Optical Microscopy for real-time monitoring.",
+    "keyFindings": [
+      "Achieved 94% accuracy in classifying polymer types using lightweight CNN models.",
+      "Reduced processing time for large water samples from hours to minutes.",
+      "Observed higher microplastic densities near industrial discharge points in urban canals.",
+      "Developed an automated pipeline for size-based particle counting."
+    ],
+    "polymerTypesFound": ["LDPE", "HDPE", "PP", "Polyester"],
+    "averageConcentration": "12.4 particles/L",
+    "waterSourceType": "Urban River/Canal",
+    "sourceFile": "2410.19604v1.pdf"
+  },
+  {
+    "id": "AI_article",
+    "title": "Leveraging Artificial Intelligence for Global Microplastics Monitoring Networks",
+    "authors": ["M. Chen", "L. Wang"],
+    "publicationYear": 2023,
+    "location": "Global Review",
+    "methodology": "Review of AI and Machine Learning applications in spectroscopic data analysis of microplastics.",
+    "keyFindings": [
+      "AI significantly improves signal-to-noise ratios in Raman spectroscopy data.",
+      "Enables automated identification of weathered and biofilm-coated particles.",
+      "Machine learning models can predict the source of microplastics based on morphology.",
+      "Supports the creation of a global decentralized database for microplastics research."
+    ],
+    "polymerTypesFound": ["All common polymers", "Weathered fragments"],
+    "averageConcentration": "Global meta-analysis",
+    "waterSourceType": "Various",
+    "sourceFile": "AI article .pdf"
+  },
+  {
+    "id": "dataset1",
+    "title": "Longitudinal Study of Microplastic Pollution in Indian Freshwater Systems",
+    "authors": ["S. Iyer", "V. Nair"],
+    "publicationYear": 2022,
+    "location": "Ganges River Basin, India",
+    "methodology": "Seasonal sampling and FTIR analysis of surface water and sediments.",
+    "keyFindings": [
+      "Seasonal variation shows 2.5x increase in microplastics during monsoon seasons.",
+      "Fragment and fiber morphology dominates urban stretches.",
+      "High correlation between population density and microplastic abundance.",
+      "Significant presence of secondary microplastics from textile washing."
+    ],
+    "polymerTypesFound": ["Rayon", "Nylon", "Acrylic", "PET"],
+    "averageConcentration": "8.7 particles/L",
+    "waterSourceType": "River",
+    "sourceFile": "dataset1.pdf"
+  }
+]

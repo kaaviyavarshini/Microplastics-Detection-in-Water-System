@@ -1,0 +1,1970 @@
+REVIEW
+Analysis of microplastics in drinking water and other clean water
+samples with micro-Raman and micro-infrared spectroscopy:
+minimum requirements and best practice guidelines
+Darena Schymanski1,2&Barbara E. Oßmann3&Nizar Benismail4&Kada Boukerma5&Gerald Dallmann6&Elisabeth von
+der Esch7&Dieter Fischer8&Franziska Fischer8&Douglas Gilliland9&Karl Glas10&Thomas Hofmann10&
+Andrea Käppler6&Sílvia Lacorte11&Julie Marco12&Maria EL Rakwe5&Jana Weisser10&Cordula Witzig13&
+Nicole Zumbülte13&Natalia P. Ivleva7
+Received: 9 April 2021 / Revised: 17 June 2021 / Accepted: 22 June 2021
+#The Author(s) 2021
+Abstract
+Microplastics are a widespread contaminant found not only in various natural habitats but also in drinking waters. With
+spectroscopic methods, the polymer type, number, size, and size distribution as well as the shape of microplastic particles in
+waters can be determined, which is of great relevance to toxicological studies. Methods used in studies so far show a huge
+diversity regarding experimental setups and often a lack of certain quality assurance aspects. To overcome these problems, this
+critical review and consensus paper of 12 European analytical laboratories and institutions, dealing with microplastic particle
+identification and quantification with spectroscopic methods, gives guidance toward harmonized microplastic particle analysis in
+clean waters. The aims of this paper are to (i) improve the reliability of microplastic analysis, (ii) facilitate and improve the
+planning of sample preparation and microplastic detection, and (iii) provide a better understanding regarding the evaluation of
+already existing studies. With these aims, we hope to make an important step toward harmonization of microplastic particle
+analysis in clean water samples and, thus, allow the comparability of results obtained in different studies by using similar or
+harmonized methods. Clean water samples, for the purpose of this paper, are considered to comprise all water samples with low
+matrix content, in particular drinking, tap, and bottled water, but also other water types such as clean freshwater.
+Keywords Microplastic .Micro-Ramanspectroscopy .Micro-(FT)IRspectroscopy .Bottled water .Drinkingwater .Cleanwater
+Darena Schymanski and Barbara E. Oßmann contributed equally to this
+work.
+*Natalia P. Ivleva
+natalia.ivleva@tum.de
+1Chemical and Veterinary Analytical Institute
+Münsterland-Emscher-Lippe (CVUA-MEL), Joseph-König-Straße
+40, 48147 Münster, Germany
+2Institute of Food Chemistry, Westfälische Wilhelms-Universität
+Münster, Corrensstr. 45, 48149 Münster, Germany
+3Bavarian Health and Food Safety Authority, Eggenreuther Weg 43,
+91058 Erlangen, Germany
+4Nestle Quality Assurance Center Vittel, 1020 Avenue Georges
+Clemenceau, 88800 Vittel, France
+5Ifremer, REM/RDT/LDCM, 29280 Plouzané, France
+6SGS Institut Fresenius GmbH, Königsbrücker Landstr. 161,
+01109 Dresden, Germany7Institute of Hydrochemistry, Chair of Analytical Chemistry and
+Water Chemistry, Department of Chemistry, Technical University of
+Munich, Elisabeth-Winterhalter-Weg 6, 81377 Munich, Germany
+8Leibniz Institute of Polymer Research Dresden (IPF), Hohe Straße 6,
+01069 Dresden, Germany
+9Joint Research Centre (JRC), European Commission,
+21027 Ispra, Italy
+10Chair of Food Chemistry and Molecular Sensory Science, Technical
+University of Munich, Lise-Meitner-Straße 34,
+85354 Freising, Germany
+11Department of Environmental Chemistry, IDAEA-CSIC, Jordi
+Girona 18-26, 08034 Barcelona, Catalonia, Spain
+12Danone Waters, 11 Avenue du Général Dupas, 74500 Evian les
+Bains, France
+13TZW: DVGW-Technologiezentrum Wasser (German Water Centre),
+Karlsruher Straße 84, 76139 Karlsruhe, Germanyhttps://doi.org/10.1007/s00216-021-03498-y
+/ Published online: 20 July 2021Analytical and Bioanalytical Chemistry (2021) 413:5969–5994
+Abbreviations
+ABS Acrylonitrile butadiene styrene
+AFM Atomic force microscopyATR Attenuated total reflection
+FPA Focal plane array
+FTIR Fourier transform infraredHQI Hit quality index
+ICA Independent component analysis
+ILC Interlaboratory comparisonIR Infrared
+JRC Joint Research Centre
+LDIR Laser direct infrared imagingLOD Limit of detection
+LOQ Limit of quantification
+MCR-ALS Multivariate curve resolution-alternating
+least squares
+μ-FTIR Micro-FTIR
+MP(s) Microplastic(s)OT Optical tweezers
+PA Polyamide
+PC PolycarbonatePE Polyethylene
+PET Poly(ethylene terephthalate)
+PMMA Poly(methyl methacrylate)
+PP Polypropylene
+PU PolyurethanePS Polystyrene
+PT Proficiency tests
+PTFE PolytetrafluoroethylenePVC Poly(vinyl chloride)
+QA Quality assurance
+QC Quality controlQCL-IR Quantum cascade laser-based infrared
+RDF Random decision forest
+RM Micro-Raman spectroscopyS E M S c a n n i n ge l e c t r o nm i c r o s c o p y
+SERS Surface-enhanced Raman spectroscopy
+TERS Tip-enhanced Raman spectroscopyWHO World Health Organization
+Introduction
+Microplastics (MPs) are considered as a new class of contam-inant whose emergence derives from the enormous growth in
+polymer use over the last 70 years and the progressive frag-
+mentation of the resulting plastic waste debris dispersed intothe environment [ 1,2]. There is an ongoing discussion about
+the definition and categorization for the term “microplastics ”
+[3,4]. The Technical Report CEN ISO/TR 21960 defines
+“microplastic ”as“any solid plastic particle insoluble in water
+with any dimension between 1 μm and 1,000 μm”and“large
+microplastic ”as particles between 1 and 5 mm [ 5]. In contrast,the Californian State Water Resources Control Board current-
+ly defined “‘Microplastics in Drinking Water ’[…]a ss o l i d
+polymeric materials to which chemical additives or other sub-
+stances may have been added, which are particles which have
+at least three dimensions that are greater than 1 nm and less
+than 5,000 micrometers ( μm). Polymers that are derived in
+nature that have not been chemically modified (other than
+by hydrolysis) are excluded [ 6].”Within this resolution, a
+size-based nomenclature differentiates between
+“nanoplastics ”(1 nm to < 100 nm), “sub-micron plastics ”
+(100 nm to < 1 μm),“small microplastics ”(1μm to < 100
+μm), “large microplastics ”(100μmt o<5m m ) ,
+“mesoplastics ”(5 mm to < 2.5 cm), and “macroplastics ”(>
+2.5 cm). Another distinction can be made between “primary ”
+and “secondary ”MPs. Primary MPs are intentionally
+manufactured plastic particles added to products for functionalpurposes, e.g., as abrasive material in toothpaste, exfoliants,
+and other cosmetics. Secondary MPs originate from larger
+plastic items which have degraded into smaller fragments
+(d
+ue to UV radiation as well as mechanical, physicochemical,
+and biotic factors), including MPs that are formed from plastic
+packaging during use such as abrasion from bottles and caps.
+These MPs may even break down into nanoplastics [ 7–11].
+With increasing numbers of scientific publications on MP
+contamination in environmental matrices as well as in food
+and drinking water, the calls for harmonized methods becomelouder. In fact, this is one of the research gaps highlighted in
+the latest report of the World Health Organization (WHO): “a
+set of standard methods is needed for sampling and analyzing
+MPs in drinking-water and fresh water. ”[12]. Moreover, due
+to the California Safe Drinking Water Act and the Directive(EU) 2020/2184 on the quality of water intended for humanconsumption, standard methodologies for monitoring MPs in
+drinking water are needed [ 13,14]. To date, many different
+methods have been reported by numerous laboratories as sum-
+marized by Koelmans and colleagues who assessed the quality
+of MP detection in fifty studies analyzing water from rivers,
+lakes, groundwater, tap water, bottled drinking water, andwastewater [ 15]. From these studies, in which MP concentra-
+tions varied across ten orders of magnitude (10
+−2–108parti-
+cles/m3), Koelmans et al. concluded that 92% of the reviewed
+studies were not fully reliable in certain quality assurance
+(QA) aspects [ 15]. Furthermore, a huge diversity between
+the experimental setups of the examined studies was shown.
+The review by Koelmans and colleagues emphasizes a lack of
+comparability of the results from different studies, which
+makes the monitoring and controlling of potential MP releasenearly impossible. Instead, as Zarfl summarizes in her review,
+the“standardization of MP analytical methods on the basis of
+research aim will help to make study results comparable and
+obtain a more comprehensive picture of MP abundance and
+fate in the environment. ”[16]. One important step toward
+reproducible and comparable studies was recently made by5970 Schymanski D. et al.
+Cowger and colleagues, who reported a detailed guideline on
+a huge number of steps to be noted during microplastic anal-
+ysis [ 17].
+Apart from the absence of standardized sampling proce-
+dures [ 11,12,18,19], the analytical difficulties in MP re-
+search are further compounded by the limited use or non-availability of common quality control (QC) measures [ 19,
+20]. In particular, there has been a lack of analytical standards,
+appropriate reference materials, and interlaboratory compari-son (ILC) studies. For the latter of these, the first initiatives
+were launched only recently [ 21–25]. The “Discussion Paper:
+Microplastics Analytics –Sampling, Preparation and
+Detection Methods ”focuses on different physicochemical
+methods and analytical approaches in order to achieve valid
+methods and comparable results [ 3]. Recently, an updated
+version of the document “Status Report: Analysis of
+microplastics –Sampling, preparation and detection methods ”
+was presented [ 26]. The first “Standardized protocol for mon-
+itoring microplastics in seawater ”was published in 2019 as a
+result of the “BASEMAN ”project [ 27]. It recommends pro-
+cedures for MP sampling, processing, and analysis for surfaceand water column seawater samples, beginning with particles
+>1 0 0μm. Enders et al. published a protocol to extract MPs
+with sizes between 10 μm and 5 mm from environmental
+samples [ 28] and proposed several options to size-fractionate
+larger from smaller particles. Unfortunately, the proposed op-
+erating procedures are not applicable for the analysis of parti-
+cles in the lower size range (especially below 10 μm).
+The most common techniques to reliably identify MPs are
+spectroscopic (infrared (IR) spectroscopy and micro-Ramanspectroscopy (or Raman microspectroscopy, RM)) or thermal
+degradation methods [ 19,29,30]. While the mass-based ther-
+mo-analytical methods can determine the overall mass of dif-
+ferent polymer types, the particle-based spectroscopic
+methods provide information on the polymer type, number,size and size distribution, and morphology separately for all
+analyzed plastic particles in a sample [ 3,11,31].
+Furthermore, in considering the applicability of the two
+approaches, it must be noted that drinking water samples canpotentially contain high numbers of small (< 10 μm) MPs of
+several polymer types [ 32–34].
+One spherical particle with a
+diameter of 10 μm and a density of 1 g/cm3has a mass of 0.5
+ng, while one particle with a diameter of 1 μm equals a mass
+of only 0.5 pg. Particles of such small size can still be identi-
+fied individually via spectroscopic methods (RM). In contrast,
+thermo-analytical methods can only detect them, if they occur
+in large numbers so that their total mass (one polymer type)exceeds the limit of detection (LOD) of the method (which lies
+in the range of μg, [26]).
+Other important types of information, especially in relation
+to toxicological concerns, is the number, size or size distribu-tion, and shape of the MPs. It was, for example, shown that
+polystyrene (PS) particles below a size of 4 μm can passhuman intestinal epithelium cells in minor fractions [ 35].
+Spectroscopic methods are particularly well suited for gather-ing these characteristics, because they permit a direct enumer-ation of potential MPs and in contrast with colorimetric
+methods (use of dye) or morphological methods (e.g., scan-
+ning electron microscopy, SEM); they are capable of specifi-cally determining their identity through a complete spectral
+pattern recognition. Given these advantages, this consensus
+paper focusses on spectroscopic methods as the means to sat-isfy the analytical requirements for MP analysis in clean
+water.
+To this end, a group of 12 European analytical laboratories
+and institutions (from Germany, France, Italy, and Spain) ex-perienced in spectroscopic MP analysis has discussed and
+developed a joint working paper, describing the consensusfor sampling procedures and detection methods used in these
+laboratories. The present paper compiles all the information
+gathered in working meetings and discussions together withcritical review of literature published by other authors and
+provides a guideline that describes minimum requirements
+and best practices for MP analysis by spectroscopic methodsin clean waters. Clean waters, for the purpose of this consen-
+sus paper, comprise all waters with a low content of back-
+ground matrix, in particular drinking water, bottled and tap
+waters but also other water types such as clean natural fresh
+waters or injectable water for medical/pharmaceutical applica-tions, e.g., 1/ Ph. Eur. 2.9.19. [ 36]. While preparing the man-
+uscript, an extensive literature research was conducted (until31.03.2021) via the most common databases: ISI Web ofKnowledge, Google Scholar, and SciFinder. The search terms
+included, among others, microplastic, analysis, identification,
+quantification, characterization, vibrational spectroscopy,Raman, infrared, and drinking water. Then the publications
+related to guidelines for Raman and IR analysis of
+microplastics were selected and discussed in this reviewmanuscript.
+In this paper, all relevant methodological steps toward a
+valid and reliable MP identi fication are described and
+discussed. It includes precautions and advice on sampling
+and sample preparation, avoidance of sample contamination,
+measurement methods, data processing, and method valida-tion. In addition to their discussion in the text, all these points
+are summarized in Table 1. The minimum requirements and
+the best practice approaches are designed to (i) improve the
+reliability of MP analysis by helping labs to identify pitfalls in
+the analytical method and, thus, to avoid generating false-
+positive and false-negative results; (ii) facilitate and improvethe planning of MP analysis; and (iii) provide a better under-
+standing regarding the evaluation of already existing studies.
+Overall, the present review attempts to make an important steptoward harmonization of MP analysis in clean waters in order
+to allow the comparison of results obtained in different studies
+by using similar or harmonized methods. These proposals and5971 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+Table 1 Minimum requirements and the best practice guidelines for the analysis of microplastics in drinking water and other clean water samples with
+micro-Raman and micro-infrared spectroscopy
+Method Minimum requirement Best practice
+Avoiding sample contamination
+Air purity, type of floor/wall Clean lab, linoleum or tiling floor, no carpet Controlled air flow, clean room
+Type of extraction hood Laboratory hood surfaces must be thoroughly cleaned
+with filtered liquid (e.g., water) to avoid
+microparticle contaminationLaminar flow cabinet
+Type of lab coat, clothes, gloves Cotton lab coat, beneath: avoid all clothes with
+potential release of synthetic textile fibers
+Gloves: if used, check critically for potential
+contaminationHairnet, beard protector/guard
+Operator precautions Wash hands, tie back hair, if mask must be worn, use
+N95No make-up, no hydration cream
+Sampling
+Type of sampling container or online
+processClean containersMinimize plastic use during samplingGlass or stainless steel —avoid plastic component/item
+Volume of sample Volume adapted considering the water type (number
+and size distribution of microparticles)Volume adapted to the container (e.g., entire packed
+bottle)
+Avoid sub-sampling, if possible
+Number of replicates 1 Minimum 3
+Preparation of sampling container Mechanical cleaning and rinsing (e.g., cleaning with
+particle-free water)Filtrated tension-active/surfactant or chemical solution
+(e.g., sodium dodecyl sulfate, chromosulfuric acid)
+Sample preparation
+Cleaning of the outer side of the
+sampling containerMechanical cleaning and rinsing before entering the lab
+hood/clean bench
+Addition of reagent, use of tools If adding reagents: check for purity/possible contami-
+nation through blank samples; filtration advised withfurther check of contamination
+Use of pre-cleaned glassware and tools (glass pipette)
+Avoid plastic tools/pipettesOption to dissolve minerals: Na 4EDTA solution (250
+g/l) depending on the amount of calcium and
+magnesium in the sample prepared from Na 4EDTA
+> 99%, filtered through a syringe membrane filter
+(e.g., cellulose acetate, 0.2 μm)
+Sample filtration
+Filtration steps 1 Optional: fractionated filtration, for example, with
+multiple filters of different pore sizes (same material
+or any other approved material)
+Nature of filter Free choice Check the quality of the filter surface: it should be
+default-free and very flat
+For automated systems:Silicon (FTIR, Raman)
+Metal (Au, Al)-coated PC filter (IR, Raman):
+exclusion of PC results advised; at least careful
+checking of the level and stability of the blank
+needed
+Aluminum oxide (IR)
+PTFE (Raman): exclusion of PTFE results advised; at
+least careful checking of the level and stability of theblank needed
+For non-automated systems:
+Free choice, e.g., above-named filters or others, e.g.,
+nitrocellulose
+Filter features (pore size, dimensions) Filter pore size must be adapted to the size of particles
+delivered in the report (information about filter pore
+size should be given in the report)To reduce the time of analysis, the smallest possible
+filter surface should be chosen
+If background correction is applied in spectroscopy,
+pay attention to the distances between pores toobtain adequate background signals from the filter
+Nature of filter holder and other
+materials usedAvoid plastic tools as alternatives are existingUse of plastic devices (e.g., PTFE) needs critical and
+very strict control (check blanks) with possible
+exclusion of corresponding polymer particlesStainless steel, glass, or colored PTFE (colored with
+blue or red dye; allows the laboratory to give results
+for PTFE, with exclusion of the dyed material from
+the results)5972 Schymanski D. et al.
+Table 1 (continued)
+Method Minimum requirement Best practice
+Volume of sample filtered Sub-filtration possible; if it is done, it has to be stated in
+the reportIdeally filtration of the entire sampling volume to
+reduce inhomogeneity when aliquoting the sample
+Rinsing conditions after filtration Glassware rinsed once with particle-free water after
+initial filtration of the sample to maximize the recu-
+peration of microparticles potentially stuck at the
+surface of glassware. Be aware that the rinsing step
+might bring contamination (check blank values)
+Handling, transport, and storage of
+the filterProtection of the filter from atmospheric deposit
+needed, e.g., in glass Petri dishes or metal containers
+It is highly recommended to avoid plastic containers
+(possible contamination; electrostatic charging mayresult in a loss of particles)
+Laboratory blanks
+Matrix used Particle-free water: tested in the lab or water bought
+and tested
+Frequency of blank samples during
+routine analysis1 blank per series or day for a maximum of 10 samples More than one blank per day or 10 samples
+Acceptance criterion for blank
+routine analysis (MPs/blank), forvalidation or invalidation of theseriesThe sum of all kinds of MPs in the blank sample must
+not exceed the LOD of the method (see below) foraccepting the results of the series
+If the number of MPs in the blank sample is higher,
+some contamination occurred during sample
+processing that could have polluted the samples,
+leading to false-positive results
+Exceptional procedure: If a high contamination with
+only one polymer type occurs, the lab can exclude
+the results of this polymer and give additional
+information about the contamination (number, size,etc.)
+Analysis
+Particle detection mode Parameters for image acquisition (e.g., focus,
+contrast/brightness) have to be adapted in order toobtain correct images for particle detection (e.g., forcorrect size determination)Auto or semiautomatic particle detection possible.
+Dark-field illumination can be used to improve the
+detection of small particles (< 5 μm).
+Critical parameters for particle detection may ideally be
+adjusted automatically or should be fixed in order to
+avoid inter-operator bias.
+Less important for mapping/imaging during Raman/IR
+measurement.
+Size range of MPs targeted ( μm) Information on smallest particle size analyzed (size
+range and distribution)
+If particle numbers are reported in a binned form, the
+following size classes should be used: 1 –5μm, 5–10
+μm, 10 –20μm, 20 –50μm, 50 –100μm, 100 –500
+μm, > 500 μmFor future best practice, the specific particle sizes, e.g.,
+in the form of raw data, should be provided forfurther data analysis and modeling.
+Libraries used Minimal included polymer types: PE, PET, PP, PS, PC,
+PVC, PMMA, PTFE, nylon (PA), PU (severaltypes)
+Natural materials present in samples (e.g., proteins,
+cellulose) to avoid mistaking with, e.g., PA (seeSupplementary information (ESM), section S1)Additionally, spectral data for additives (e.g., pigments
+(Raman)), elastomers, further naturally occurringmaterials (e.g., minerals)
+Homemade spectral database, for example, including
+materials from sample packaging, containers, andmaterials used in the laboratory
+Match acceptance criterion between
+sample spectra and database
+referenceIf the laboratory is using a fixed limit for automatic
+acceptance of spectral matching with the database
+(e.g., hit quality index, HQI):
+T
+he minimum limit can be set at a matching result of,
+for example, > 70%
+The lab has to approve initially that the automatic
+identification for spectral matching above this value
+is correct, e.g., through operator/human review ofthe characteristic peaks in the spectra.Pay attention to the spectra of nylon and proteins,
+which are very similar in IR and Raman spectra
+(compare “Data processing ”and ESM, section S1).
+The same kind of spectral similarities could issue
+with Polyethylene and molecules containing long
+CH-chains, e.g., stearates leading to potential
+false-positive identification.5973 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+Table 1 (continued)
+Method Minimum requirement Best practice
+Afterwards, the lab is free to consider particles with
+spectral matching below this value as identified,
+when the identity is confirmed via operator/humanreview.
+Be aware that different software may produce different
+values for the HQI and that a verification of thealgorithm has to be done to confirm the correct
+identification of the material (see “Data
+processing ”).
+Besides classical database search, other identification
+techniques, such as a homemade semiautomaticidentification via mathematical algorithms (e.g.,
+classical least squares (CLS), including manualreview of results), model-based classification (e.g.,random decision forest (RDF) classifiers) are possi-
+ble after validation of the recognition model.
+Objective used Depends on samples and equipment type —must allow
+to obtain a good image/signalAdjust the objective to the analyzed particle size, e.g.,
+for Raman, particles of 1 μm can be measured with a
+50× objective
+IR acquisition mode Transmission and reflection modes for micro-(FT)IR
+are easier/faster to use
+ATR: only for particles > 100 μm. Slower, more
+difficult to use and attention must be paid to the
+cleaning of the device (germanium/diamond) withcontact mode to get rid of any cross contamination
+Range of acquisition (cm
+−1) IR: 1250 –3600 cm-1
+Raman: 200 –2000 cm-1IR: entire MID-IR rangeRaman: 50 –4000 cm
+−1(Raman)
+Raman laser wavelength used (nm) 532 nm or 785 nm
+Raman laser beam spot size ( μm) Spot size depends on the instrumentation (information
+on the spot size has to be given in the report)Down to 1 μm, if particles of that size have to be
+analyzed
+Raman laser parameters Laser parameters should not cause particle destruction
+(RM)
+Acquisition time minimal 1 s for single particle
+measurement to reach an acceptable signal-to-noise
+ratio. For imaging, shorter time can be used.Measurement time as long as necessary to get good
+spectra, but as short as possible to save time.
+ADVICE: Work as much as possible in
+non-destructive mode or with low laser power.
+Some examples are given for a mean generic value to
+start the acquisition testing of a sample:
+silicon filter/magnification 20× (NA 0.50) or 50× (NA
+0.55)/laser power (532 nm) 5 mW or 6 mW, (785nm) 15 mW
+Au-coated PC filter/magnification 20× (NA 0.50) or
+50× (NA 0.55)/ laser power (532 nm) 3 mW/5 s,10 s or 20 s
+Al-coated PC filter/magnification 50× (NA 0.55)/laser
+power (532 nm) 3 mW –(785 nm) 5 mW/2 s
+Spectral resolution (cm
+−1)I R : ≤8c m-1
+Number of particles/surface of filter
+analyzedDifferent approaches are possible to analyze particles
+on the filter. Different possibilities are listed below
+(beginning with the most favorable model)
+(1) If an automatic counting system/imaging for
+particles is used ,t h e whole surface of the filter
+should be scanned for the total number of particles.Depending of this number, the following models canbe used:
+(1 A) THE TOTAL SURFACE MODELIf the total number of particles is < 1000 (< 500 for
+practical reasons, < 5000 or 7000 for best practice),all particles on the filter surface should be analyzed
+by spectral recognition.
+If the total number of particles is > 1000:Spectral recognition of all particles on the filter, if
+possible.
+If too many particles occur on the filter, a
+representative aliquot can be taken to decrease the
+total number of particles (see “Models for
+sub-sampling of particles deposited on a filter ”).5974 Schymanski D. et al.
+Table 1 (continued)
+Method Minimum requirement Best practice
+ALL particles > 50 μm (up to 1000) have to be counted
+and measured (if possible with imaging/sizing
+system), especially for environmental or complex(e.g., food) samples. For particles < 50 μm, one of
+the following models should be chosen:
+(1 B) THE RANDOM MODELChoose randomly a selected number (1000 particles at
+minimum, 500 for practical reasons, 5000 or 7000particles for best practice) to be analyzed/identified.
+(1 C) THE “CAKE ”MODEL
+If random particle selection is not possible, at least one
+region representing “ap i e c eo fc a k e ”(from the
+center of the filter to the border of the filter, forexample, a quarter of the filter is a piece of cake by1/4) has to be chosen for analysis. Its surface should
+be at least 20% of the total filter surface, when
+analyzing particles down to 10 μm( I R )o r5 μm
+(RM), and at least 4% of the total filter surface, when
+analyzing particles down to 1 μm. Additionally, the
+number of particles analyzed on this piece of cake
+must exceed 1000 (500 for practical reasons, 5000 or7000 particles for best practice).
+(1 D) THE HELIX or “SNAIL ”MODEL
+If it is technically not possible to choose random
+model, at least 5 regions on the filter have to bechosen for analysis. Their total surface should be at
+least 20% of the total filter surface, when analyzing
+particles down to 10 μm( I R )o r5 μm (RM), and at
+least 4% of the total filter surface, when analyzingparticles down to 1 μm. Additionally, the number of
+particles analyzed for the chosen regions must ex-ceed 1000 (500 for practical reasons, 5000 or 7000particles for best practice).
+(2) If there is no automatic counting system/imaging
+for particles
+- All particles on the entire filter surface must be
+analyzed with spectral recognition up to a total
+number of particles of 1000 (500 for practical
+reasons) as minimum requirement (> 2000 for bestpractice approach)
+-
+If the total number of particles is > 1000, use a
+combination of:
+Analysis of all particles > 50 μmu pt o1 0 0 0( 5 0 0f o r
+practical reasons) (possible with imaging/sizing
+system) AND selection of one statistical model from
+B to D for particles < 50 μm.
+The final results are obtained as the sum of the particles
+above and below 50 μm (measured with one of the
+above-described models; each extrapolated to all
+particles detected in the corresponding size range).
+Method validation
+Description of the way to validate the
+methodI. Verification of size measurement of the equipment,
+e.g., with particles of known size
+II. Verification of qualitative polymer identification at
+the claimed minimal size, at least for the main
+polymer types (PE, PET, PC, PP, PVC, PS, etc.)
+III. Determination of the LOD as the mean of all MPs
+identified in 10 blank samples + their threefold
+standard deviation: LOD =mean 10blanks+3∗s10blanks
+Re-determination after modifications of the methodIV. Verification of the recovery rates of the entire
+method
+V. Inter laboratory comparison (ILC) and proficiency
+tests (PT)5975 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+best practice approaches are intended to support the different
+standardization processes that are ongoing throughout nation-
+al and international normalization committees.
+Measures to avoid sample contamination
+The laboratory working environment is a critical point for
+analysis of MPs. Koelmans and colleagues [ 15] pointed out
+that laboratory working conditions represent a key factor inimproving the quality and comparability of results. Some rec-ommendations have already been described to improve the
+quality of analytical methods [ 3,12,20,37]. These include
+the avoidance of plastic items and synthetic components dur-
+ing the entire analytical process from sampling to analysis.
+Figure 1gives an overview of critical points concerning a
+quality-controlled microplastic analysis.
+As a starting point, the laboratory should be largely free of
+MP particles or fibers. In order to ensure this, the floor of the
+laboratory needs to be of an easily washable material and mustbe regularly cleaned. Some laboratories use sticky anti-
+contamination mats at the entrance [ 20]. Airborne particles
+and fibers are one of the major causes of external sample
+contamination [ 38] and must be assessed and minimized by
+appropriate strategies. As described in previous studies, theuse of controlled air flow is recommended to maximize airpurity and minimize airborne contamination [ 15,33].
+Sample handling should be performed in a “clean air labora-
+tory”[39–41] or in a laminar flow cabinet [ 3,42]. By choos-
+ing a laminar flow cabinet, at least ISO Class 5 (3520 parti-
+cles/m
+3for particles ≥0.5μm) is advisable, whereas a cabinet
+of ISO Class 3 (35 particles/m3for particles ≥0.5μm) [43]i s
+preferable, especially for the analysis of MPs in the lower μ-range. Additionally, surfaces in the lab and the laminar flow
+cabinet must be cleaned regularly [ 20].
+Due to the risk of contamination by plastic microfibers,
+clothing requires special attention [ 37]. In all handling steps,
+cotton or antistatic lab coats (particle free) must be worn by all
+analytical staff. Moreover, clothes containing synthetic fibers,
+even when worn underneath a lab coat, may increase the am-bient level of MPs [ 19]. General precautions during sample
+handling have to be followed by operators in order to decreasethe risk of contamination (e.g., wash hands, tie back long hair,
+no make-up, nail polish nor hydration cream), as these prod-
+ucts may contain and release MPs [ 44].
+Wherever safety considerations permit, the use of dispos-
+able laboratory gloves should be avoided, as they might causesample contamination. If necessary, the usage of gloves mustbe critically checked by analyzing blank samples [ 45].
+Moreover, recent pandemic events may impose the need forlaboratory staff to use temporarily specific personal protectionequipment as (single use) masks. These masks can be made
+from polypropylene (PP) and thus might release numerous PP
+microparticles into the lab environment [ 46]. In general, labs
+are encouraged to critically reflect on any temporary modifi-
+cation of usual working practices that could interfere with MP
+measurements.
+Cleanliness of the working area needs to be evaluated by
+the operators. Schymanski et al. performed a periodical eval-uation of particle levels with a particulate measuring deviceinside the hoods to verify their efficiency [ 33]. Some authors
+deposit empty filters or petri dishes next to the working area tocheck for background contamination levels [ 47,48].
+To evaluate the contamination level in parallel with every
+sample batch, a blank test with particle-free water (recognizedquality, e.g., ultrapure, ultra-filtrated, or pyrogenic water)should be performed (see “Laboratory blanks ”).Table 1 (continued)
+Method Minimum requirement Best practice
+Data processing
+Information to be given in the report Total number of particles in the sample or sub-sample
+(if available)
+Number of particles analyzed
+LOD
+Number of total microplastics identified (calculation
+or measurement)
+➢By type of polymer
+➢By size ranges
+➢No blank subtraction
+If sub-sampling during measurement was done: ana-
+lyzed area of the filter (%) or statistical percentage of
+analyzed particles on the total number of particles
+(%)
+The laboratory should report quantitative results only,
+if the results exceed the LOD. Otherwise, results can
+be given as < LOD.Additional information, if requested:
+Shape (fragment, fiber, or bead)
+Color, pictures of particles or filters
+Number of (potential) MPs not included in the mini-
+mum set of polymer classes. Total number ofnon-plastic particles identified (e.g., minerals,proteins, cellulose), by type, by size range, etc.
+Total number of non-identified particles
+If qualitative information is given about particles
+smaller than the pore size of the filter, it must bedemonstrated that these particles were intrinsic to the
+sample. Further, it must be stated that these data are
+not representative.
+For future best practice, the specific particles size, e.g.,
+in the form of raw data, should be provided for
+further data analysis and modeling.5976 Schymanski D. et al.
+Plastics may only be used if the corresponding polymer is
+excluded from the results or if it is marked, for example, with a
+fluorescent dye and can thus be distinguished from sampled
+MPs. For instance, some laboratories use filtration devicesthat contain parts made from specifically colored
+polytetrafluoroethylene (PTFE), which enable the recognition
+of other PTFE particles that may originate from the sample[49]. If possible, only glass or stainless steel should come into
+direct contact with the sample. In addition, it is essential thatcontainers for sampling are thoroughly cleaned prior to use[15]. This can be achieved by mechanical cleaning and rinsing
+with particle-free water. In order to remove particles firmlystuck to container walls, this process may not suffice. Furtheroptions for particle removal are baking of containers in a muf-
+fle oven [ 50], sonication of containers filled with water [ 34],
+and rinsing with pre-filtered surfactants or chemical solutions.Potential sample contamination during sampling should be
+monitored by the analysis of blank samples (see “Laboratory
+blanks ”)[15,20].
+Experiments showed that 20 to 80 MPs down to a size
+of 10μm are present on the external surface of a bottle/
+container and could be removed by rinsing the outer sur-face in order to preserve the bench and the hands of ma-nipulator from this contamination (unpublished data by N.
+Benismail). Therefore, it is necessary to clean the outside
+of the container, e.g., with particle-free water and a deter-gent. Furthermore, within this step, labels should be re-
+moved from bottled water whenever possible. A final rins-
+ing with particle-free water should be performed beforeplacing the sample containers in the laminar flow box,
+where the sample containers are left to dry prior to further
+handling [ 32,33].
+Fig. 1 Important precautions and
+advice for the analysis of
+microplastics5977 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+In order to avoid sample contamination by adding
+chemicals, it is highly recommended that any particles present
+in the reagent solutions are r emoved by pre-filtering the
+chemicals [ 20,51]. This can, e.g., be done with syringe mem-
+brane filters (with 0.2 μm pore size, e.g., made of cellulose
+acetate [ 32]). Instead of syringe membrane filters, the
+chemicals can be filtered through a polycarbonate (PC) filter
+(with a pore size of 1.2 μm) as proposed by Weber et al. [ 52].
+Alternatively, 1.2 μm and 0.7 μm glass-fiber filters can be
+applied for the filtration of the reagents before use, as reportedby Johnson et al. and Kirstein et al. [ 53,54], respectively. But,
+it has to be pointed out that the pre-filtering of chemicals can
+lead to a contamination with MPs, e.g., particles can be re-
+leased from the filter membrane, the plastic housing of the
+membrane filters [ 55] or from frits of classical filtration de-
+vices (unpublished data of B. E. Oßmann). Therefore, both
+filtered and non-filtered chemicals should be tested for parti-
+cles in order to decide on a case-by-case basis if filtering issuitable or not.
+After filtration, during the transfer to the analytical device
+and for storage, the filter has to be covered to avoid contam-ination from the air. Different container types can be used,
+such as glass petri dishes or metal containers. It is highly
+recommended that the use of plastic materials (e.g., polysty-
+rene (PS)/PC petri dishes) is avoided.
+Sampling
+In the case of MP analysis, samples typically contain a hetero-
+geneous mixture of particles, of which only a very small per-
+centage is actually MPs. Therefore, it is extremely important
+to analyze this heterogeneity and apply appropriate sampling,as well as sample preparation tools and methods, which shift
+the system toward a state that guarantees a representative anal-
+ysis of the lot [ 56]. Because particles in the size range of 1 μm
+to 1 mm have a very small mass, it is advisable not to prema-
+turely focus on sample mass, but rather on particle numbers.
+Sampling strategies for microplastic analytics in water vary
+a lot between different water types. Bottled waters are usuallysampled as entire bottles/packages and brought to the lab as
+they are [ 32,33,57]. In contrast, for tap waters, a defined
+volume is taken with sampling containers (e.g., glass bottles
+[34,58]) or the volume is reduced on-site with special filter
+cartridges [ 53,54,59,60]. In order to provide representative
+results, it is important to adapt the sampling volume to the
+anticipated properties of the sample [ 20]. In waters, which
+are expected to have low MP concentrations (e.g., tap water),
+a much higher sampling volume is required in order to pro-
+duce representative results, than in waters with higher antici-pated MP concentration [ 15]. The number of (plastic) particles
+in the sample increases by orders of magnitude with decreas-ing particle size. Therefore, usually a lower sample volume isrequired for representative sampling of particles in the smaller
+micrometer size range. Different research groups, who ana-
+lyzed MPs > 25 μm, > 20 μm, > 6.6 μm resp. and > 5 μmi n
+tap waters sampled several hundred to several thousand liters
+[53,54,59,60], while Pivokonsky et al., who analyzed MPs
+>1μm in tap water sampled only one liter [ 34]. If achievable,
+ideally a triplicate of each sample should be taken and ana-lyzed (best practice) [ 20].
+Sample preparation and filtration
+Particles are usually separated from the water matrix via fil-tration, either on-site during sampling (see “Sampling ”)o ri n
+the laboratory. In the first case, the filter residue is transferred
+from the cartridge to another filter in the laboratory; in the
+second case, samples are filtered through a filter, which is
+suitable for analysis. The applicability of a filter material de-pends on the analytical technique that will be used and the
+particle size to be analyzed.
+In general, filters suitable for analysis have to be flawless
+and flat in order to gather all particles of a similar size withinone focus [ 61]. Filter flatness can be enhanced by using spe-
+cial membrane-flattening holders during measurement
+[62–64].
+The pore size has to be smaller than the minimal particle
+size, which is reported quantitatively. However, pore size maynot be chosen far below the targeted particle size, as a larger
+pore size simplifies and speeds up filtration and prevents the
+filter from being clogged or covered with matrix residues [ 51,
+65]. What is more, the filter material must allow optical parti-
+cle recognition (for visual analysis and methods based onimage analysis) and must not interfere during measurement[61,66].
+For RM, either silicon membranes or metal-coated (Au or
+Al) PC filters are recommended. Both filter types obtain highcontrast to particles, if dark-field illumination is applied [ 33,
+61,66]. Besides, PTFE membranes are suitable, when used in
+bright-field illumination [ 60]. If particles are selected and an-
+alyzed manually, other filter materials like nitrocellulose are
+also adequate [ 67,68]. Gold- and aluminum-coated PC mem-
+branes do not interfere with particle spectra as they do not
+show an own intense Raman spectrum [ 33,61]. In contrast,
+other filters, such as PTFE, silicon, or cellulose, show charac-teristic peaks themselves. While the spectra of PTFE and sil-
+icon can easily be distinguished from targeted plastics, cellu-
+losic filters can interfere during MP identification [ 60,61,66].
+Using IR spectroscopies, one has to differentiate between
+reflection and transmission measurements. For reflection mea-surements, gold-coated PC membranes have been applied suc-cessfully [ 69,70], as well as reflective microscope slides [ 71].
+Further, other light-reflecting surfaces like filters and micro-scope slides coated with silver or other metals are conceivable5978 Schymanski D. et al.
+[30,70]. For transmission measurements, substrates must be
+transparent for IR light in the relevant spectral range.
+Aluminum oxide membranes (Anodisc) [ 72], zinc selenide
+windows [ 73], or silicon filters [ 66] are commonly used mate-
+rials. Anodisc membranes are only infrared transparent between3600 and 1250 cm
+−1, which partially masks the IR fingerprint
+region (1400 –600 cm−1). Nevertheless, most polymer types can
+be identified [ 63,72,74,75]. In contrast, silicon filters, which
+are transparent for the broad mid-infrared range (4000 –600
+cm−1), allow measurement of the I R fingerprint region, while
+being available in a variety of pore sizes in the micron range.This facilitates sample preparation, while providing a very flatsurface. However, custom-made f iltration units are necessary as
+these membranes are typ ically square-shaped [ 66].
+Some filter materials consist (partly) of plastics (e.g.,
+PTFE, metal-coated PC membranes, and Anodisc with PP
+support ring), which might lead to sample contamination.
+When using such filters, it is necessary to critically check thispotential contamination route via the analysis of blank sam-
+ples (see “Laboratory blanks ”). If in doubt, it is advisable to
+exclude this polymer type from MP results to avoid misinter-
+pretation [ 33].
+The sample volume (see “Sampling ”) filtered for the actual
+analysis must allow representative analysis and at the same
+time prevent overloading or clogging of the filter. In order to
+achieve these goals, one can use different options. Reductionor sub-sampling of the initial sampling volume should be
+avoided whenever possible, as this will introduce a larger error
+margin. If this is not possible, information about sub-filtrationhas to be reported. E.g., for bottled water, it is advisable to
+filter the entire bottle volume, but when analyzing MPs down
+to 1μm, the filtration volume has to be reduced to get a
+measurable particle density on the filter [ 32].
+Besides sub-sampling or reduction of the filtration volume,
+it is possible to use fractionated filtration with filters of differ-ent pore sizes to reduce particle numbers and avoid filter clog-
+ging. Subsequently, all the filters have to be analyzed sepa-
+rately for MP of different size categories [ 34,49,60]. If sam-
+ples contain a high amount of background matrix, it may be
+necessary to add chemicals to the samples prior to filtration or
+to treat the residue of volume-reduced sampling before trans-fer to the filters for analysis. Alternatively, one might treat the
+residues deposited on the filter with chemicals after filtration.
+F o re x a m p l e ,M i n t e n i ge ta l .a d d e dh y d r o c h l o r i ca c i dt od i s -solve calcium carbonate and iron precipitates (e.g., iron ox-
+ides) after filtration [ 59], whereas Pivokonsky et al. used wet
+peroxide oxidation to digest organic material in tap water
+samples [ 34]. Another option to dissolve carbonate particles
+is via complexing calcium and magnesium cations by addingan equimolar amount of ethylene diamine tetraacetic acidtetrasodium salt as solution [ 32]. In order to reduce the risk
+of sample contamination by the addition of chemicals, suchsample treatment steps should only be done if necessary.The actual filtration area should be reduced to a minimum
+to decrease measurement time. At the same time, one has toensure that particles do not overlay, inhibiting correct particleanalysis. For example, Schymanski et al. applied a filtration
+area of 12.6 mm
+2(pore size 3 μm) to filter up to 1.5 l of
+mineral water, whereas Oßmann et al. applied a filtration area
+of ~ 113 mm2(pore size 0.45 μm) to filter 250 ml of mineral
+water [ 32,33]. Before filtering the sample, homogenization
+should be achieved, e.g., by gentle shaking. After filtration,the sample container and the funnel of the filtration device can
+be rinsed with particle-free water or solvents to recover parti-
+cles adhering on the walls.
+Laboratory blanks
+Careful attention is required to ensure that samples are notcontaminated by external particles [ 15,33,38]. For QC and
+in order to quantify potential external contamination, reagents
+and materials used for performing sample analysis (e.g., water
+and chemicals used for rinsing and cleaning of utensils andcontainers), as well as the entire procedure from sampling to
+analysis must be controlled [ 20].
+Therefore, particle-free water must be analyzed regularly as
+a process blank. This blank sample must undergo the sameprocedure as the actual samples, including all sample prepa-
+ration steps [ 76]. For a small series with less than ten samples
+that are all processed within one day, a single (process) blank
+sample is sufficient. For large series with more than ten sam-
+ples, multiple (process) blank samples should be analyzedalongside the sample series (e.g., at least one process blank
+sample per five or ten samples) [ 26].
+The number of MPs (as a sum of polymers) found in the
+process blank sample indicates the level of external contami-nation that has reached the samples during the daily sample
+manipulation. To validate a series of samples, the particlecount from the blank should be compared to the values ob-
+tained during the validation stage of the method (see “Method
+validation and quality controls ”). If the result from the daily
+process blank sample is lower than or equal to the LOD de-termined during the initial validation of the method, the daily
+sample manipulation can be considered to have been correctlydone in agreement with the given recommendations of this
+paper. On the contrary, if the number of MPs in the process
+blank sample is higher than the LOD, the series of samples has
+to be invalidated. Even when all recommended precautions
+are taken, unexpected external contamination may still occurin the process blank sample and thus may also have reached
+the samples.
+In the case where the number of MPs detected in the blank
+value is higher than the LOD, but this value is attributable to ahigh number of MPs of one polymer type only (with the sum
+of the others being below the LOD), the results for all other5979 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+polymer types of the sample series may be considered as valid.
+The conspicuous polymer type must be excluded from all
+results for this sample series. This procedure should only beused as an exception. Furthermore, as much information as
+possible should be provided on the contamination (e.g., parti-
+cle number, size, conspicuous polymer type, potential con-tamination source).
+To insure that the lab is reporting correct values, it is
+strongly recommended that sample results are presented with-out prior subtraction of blank values. The LOD of the lab
+should be expressed each time results are given. When sample
+results are below the LOD (see “Method validation and qual-
+ity controls ”and“Ways of reporting results and valuable in-
+formation ”), these results should be expressed in the report as
+< LOD.
+Analysis
+(Fourier transform) infrared (FT)IR spectroscopy
+The key parameters that can be adjusted for each (FT)IR in-
+strument are the spectral range; the spectral resolution, i.e., the
+ability to resolve features within the chosen spectral range;and the number of accumulated sample spectra. Optimizing
+these parameters on any given instrument is crucial to obtain
+high-quality spectra [ 72]. In many cases, a spectral range from
+3800 to 900 cm
+−1at a resolution of 8 cm−1with 6 to 30 sample
+scans is applied [ 64,72,73].
+Different approaches can be followed to identify particles
+by (FT)IR spectroscopy: Clean individual particles can be
+measured using an attenuated total reflection (ATR) accesso-
+ry. ATR-FTIR spectroscopy is limited to relatively big parti-cles (approx. > 100 μm) that can be handled individually.
+T h em o s tc o m m o nm e t h o do fa p p l y i n gF T I Rs p e c t r o s c o p y
+to MPs is micro-FTIR ( μ-FTIR) spectroscopy, where a FTIR
+spectrometer is coupled to an optical microscope. Because of
+the diffraction limit, FTIR microscopy ’s spatial resolution is
+physically limited to approximately 10 μm[64,70,74,77].
+This limit is further influenced by the microscope objective ’s
+numerical aperture according to the Rayleigh criterion. μ-
+FTIR spectroscopy can be performed in reflectance or trans-
+mission mode. The choice of mode depends on the substrate
+(e.g., filter) onto which the MPs have been deposited.
+Alternatively, the substrate needs to be chosen depending on
+the method desired or available (see “Sample preparation and
+filtration ”).
+Reflectance mode, on one hand, is prone to undesired light-
+scattering effects on the particle surfaces that lower spectral
+quality [ 30,78]. Light-scattering effects also interfere when
+analyzing small particles in the so-called transflectance mode.
+The IR light beam fully transmits the particles being then
+reflected from the filter surface, resulting in transmission-like spectra [ 77]. On the other hand, in reflection measure-
+ments, when the IR beam is focused on the particle surface,the radiation only penetrates a few micrometers deep into theparticle (wavelength-dependent) [ 69]. This allows an investi-
+gation of the particle surface for polymer modifications due toaging effects or influences of sample preparation processes. Inaddition, reflectance FTIR spectroscopy has been successfully
+applied for the comparative FTIR and Raman spectroscopic
+analysis of MPs [ 70]. Transmission measurements were
+shown to yield high-quality spectra; however, thick
+(polymer-dependent, about > 100 μm) or colored particles
+m a yl e a dt ot o t a la b s o r p t i o ni nt r a n s m i s s i o nm o d e .
+Consequently, IR bands converge resulting in unidentifiable
+spectra. Therefore, the most suitable IR technique should be
+chosen carefully.
+Regardless of whether reflection or transmission measure-
+ment is used, a background spectrum needs to be recorded.This is necessary to account for noise from IR active sub-stances other than the target MPs such as water vapor, carbon
+dioxide in the ambient air, or the substrate the sample is de-
+posited on. Silicon membranes, for instance, show weakbands in the mid-infrared range, like the Si –O–Si stretching
+vibrations at 1108 cm
+−1[66]. This background noise can sig-
+nificantly hamper sample analysis, but can easily be corrected.
+Before each sample measurement, a background spectrum is
+recorded similar to a sample spectrum on an unused filter or aclean spot on the sample filter or respective substrate. All
+measurement parameters must be the same as for samples.
+Furthermore, the number of co-added background scans mustbe at least as high as the number of sample scans [ 54,79]. The
+instrument software usually automatically corrects the samplespectrum through subtraction or division of the backgroundspectrum [ 77,80].
+μ-FTIR analysis can be very time-consuming, when mea-
+suring hundreds or thousands of particles one by one.Operator input time can be reduced with automated particle
+detection and FTIR measurement by using appropriate com-
+mercial or open-source software (e.g., GEPARD; see “Raman
+microspectroscopy ”).
+Measurement time can be accelerated significantly by cou-
+pling a focal plane array (FPA) detector to the FTIR micro-scope. These detectors comprise up to 256 × 256 MCT (mer-
+cury cadmium telluride) detector elements. Consequently,
+FPA detectors allow the simultaneous and therefore rapid ac-quisition of thousands of IR spectra in parallel. Furthermore,
+these spectra are spatially resolved, resulting in so-called IR
+images of well-defined sample areas. In this way, IR images ofentire sample filters can be recorded in relatively short times
+compared to single-point detectors. Thus, for particle-rich
+samples, this area-based FTIR imaging can be quicker than aparticle-by-particle approach and can be performed automati-
+cally, using, e.g., open-source software siMPle [ 79].
+Automated FTIR imaging avoids the need for sub-sampling5980 Schymanski D. et al.
+of the filter surface, but produces huge amounts of data that
+need to be analyzed. Furthermore, flatness of substrates is
+even more important (see above).
+A very seldom used, yet noteworthy, technique is μ-ATR
+or ATR imaging, which combines μ-FTIR spectroscopy,
+ATR microscope objectives, and FPA detectors. ATR spectraare, in comparison with transmission and reflectance spectra,
+less prone to noise, light-scattering effects, and total absorp-
+tion. However, this technique requires the sample to be depos-ited on a firm surface that does not break when the ATR
+crystal is pressed on it [ 63]. Moreover, particles tend to stick
+on the crystal, which makes any remeasurement of the sample
+area impossible.
+A new technique, quantum cascade laser-based
+hyperspectral IR spectroscopy (QCL-IR microscopy), has re-cently been brought to market. This technique is also called
+laser direct infrared imaging (LDIR). Unlike traditional FTIR
+imaging systems, QCL-IR imaging systems make a first scanof the whole sample at one particular wavenumber to identify
+potential regions of interest. The regions of interest are subse-
+quently scanned over a wider wavenumber range to gatherenough spectral information to be able to identify the particles.
+For instance, Primpke et al. scanned environmental samples at
+1470 cm
+−1to identify potential MP particles [ 81]. These were
+subsequently scanned in the region 1800 –1184 cm−1and
+1160– 1084 cm−1to identify the targeted polymer types.
+They compared the QCL-IR system ’s performance to state-
+of-the art FTIR imaging and concluded that the results gainedusing QCL-IR microscopy were in good agreement with thoseof the reference method, while being about tenfold as fast [ 81].
+QCL-IR, until now, was successfully applied to samples ofsoil [ 82,83], river [ 84], and brackish waters [ 85]. However,
+further research is needed in order to clarify the feasibility and
+limitations of this technique for the MP analysis in clean water
+samples.
+Raman microspectroscopy
+Raman microspectroscopy (RM) is a non-destructive analyti-cal method based on the effect of inelastic light scattering on
+molecules. RM (analogous to IR spectroscopy) provides vi-
+brational fingerprint spectra. The coupling of Raman spectros-copy with confocal optical microscopy and the use of a laser in
+the visible range allow a significantly better spatial resolution
+down to 1 μm and even below (down to approx. 300 nm)
+compared to μ-(FT)IR spectroscopy [ 31,86,87]. RM offers
+the advantage of being insensitive to water, which allows theanalysis of MP in aqueous and wet samples. A major disad-
+vantage of RM for the analysis of MP in real samples is inter-
+ference due to fluorescence, which can be caused by inorganic(like clay minerals or dust particles), organic (like humic sub-
+stances) and (micro)biological impurities in the matrix.
+Therefore, the choice of suitable measurement parameters(laser wavelength and power, photobleaching, and acquisition
+time, as well as objective magnification and confocal mode) is
+important to minimize or avoid interference from strong fluo-rescence and to improve the quality of spectra. In addition,
+removal of the (in)organic matrix from complex samples (e.g.,
+[28]) leads to a significant increase of the plastic to non-plastic
+particle ratio. The spectral range for the Raman analysis of
+MPs has to cover all spectral features of (synthetic) polymers
+f r o m5 0t o4 0 0 0c m
+−1(best practice, or from 200 to 2000 cm-1as
+minimum requirement). For the proper identification, both the
+fingerprint area (50 cm –1,500 cm-1) and the area including C-H
+stretching modes of alkyls, alkenes, and aromatic compounds
+(2800 cm-1–3200 cm-1)[87] are important. The entire measured
+spectral region has to be also covered by the databases, appliedfor the assignment of MP spectra. Thus, a reliable detection,identification, and quantification of MPs can be achieved.
+Additionally, not only syntheti c polymers, but also additives
+(e.g., pigments), can be identified by means of RM.
+Furthermore, complementary information about the sample can
+be obtained by combining RM with μ-FTIR analysis (e.g., iden-
+tification of pigment(s) and acrylic resin in paint particles [ 86]).
+Raman imaging is usually performed as point-by-point
+measurements and is thus time-consuming [ 86], especially
+when particles smaller than 10 μm are to be analyzed. In
+contrast to an FPA-FTIR approach, Raman imaging is likely
+to be less effective than particle-by-particle measurement [ 62].
+Since a very high number of particles have to be measured
+in order to achieve representative results (see “Models for sub-
+sampling of particles deposited on a filter ”), automation of the
+RM is necessary. Currently, both commercial and open-
+source (GEPARD [ 49] and TUM-ParticleTyper [62]) pro-
+grams can be used for automated RM analysis. This way,
+the analysis of the initial optical image provides morphologi-
+cal characteristics and coordinates for all analyzed fragments,
+while subsequent Raman measurement delivers their chemicalidentity. From practical experience, the following parameters/
+options have proven to be well suited for automated measure-
+ments: 532 nm (in some cases also 785 nm, e.g., fluorescentsamples) laser excitation wavelengths, dark-field (in some
+cases also bright field) illumination, and objectives with lon-
+ger working distance.
+Before spectrum acquisition, Raman systems must be cali-
+brated. Depending on the instrument, this is commonly done onthe 520.7 cm
+−1peak of a silicon wafer and by zero-order cor-
+rection of the used grating [ 88,89]. Furthermore, some Raman
+instruments allow for an automated calibration in the broadspectral range using an internal Ar/Hg calibration lamp [ 90].
+Models for sub-sampling of particles deposited on a
+filter
+There are two ways of sub-sampling: the samples may be split
+before filtration (see “Sample preparation and prescription ”),5981 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+and subsequently, the whole filter is analyzed or alternatively,
+the whole sample may be filtered and then only a fraction ofthe filter surface is analyzed.
+Total particle numbers (sum of all particles, including min-
+erals, proteins, organic particles, MPs, etc.) in 1 l of cleanfreshwater and drinking water are expected to be up to
+10,000 particles, if a lower size limit of 5 μmi sa p p l i e d .I f
+the lower size is set to 1 μm, more than one million particles
+can be detected (unpublished data of B. E. Oßmann). The sub-
+sample size has to be chosen with respect to the total particlenumber and the expected MP content to obtain representative
+results (see Fig. 2).When analyzing particles on the filter, it is best to adhere to
+Gy’s theory of sampling, which deals with the errors that are
+introduced by incorrect sampling specifically for particles[91]. The total sampling error is dependent on two factors,
+the material heterogeneity and the sampling process [ 56]. In
+this context, Thaysen et al. show the spatial pattern of theparticles distributed over the filter impacts the different win-
+dow selection schemes [ 92].
+At this stage, it is advisable to use one of four different
+models: (1) “total surface/all particles, ”(2) random, (3)
+“cake, ”or (4) “snail ”models (see Fig. 2). All models rely
+Fig. 3 Dependence of sample
+size ( n) on margin of error ( e=
+10%, 20% or 30%; e.g., 10% ±
+0.5% MP, 10% ± 1% MP, or 10%
+± 1.5% MP, resp.) and total
+number of fragments ( N) for MP
+contents of 10% (green), 1%
+(blue), and 0.1% (yellow) for the
+random model, calculated basedon Eq. 1 [ 87]. Sampling thresh-
+olds ( n= 2000, 5000, and 7000)
+are marked in red
+Fig. 2 Illustration of the three sub-sampling models and their effects on
+introduced errors. Left, “cake”model. Slices are selected for measure-
+ment. Depending on their location and size, the grouping of particles mayaffect the results and introduce errors. Middle, “snail ”model. A compos-
+ite sampling strategy based on the selection of multiple small boxes,which should be spread across the filter, so that the edges and middleare represented. Right, random model. Since each fragment is randomly
+selected, the grouping of particles does not influence their selection.
+Representativity is only dependant on the number of fragments chosen5982 Schymanski D. et al.
+on an automated particle localization routine (open-source or
+commercial software).
+If it is feasible to measure every single fragment (particles
+and fibers) of the sample, this should be done, as any form ofsub-sampling will introduce an error. This model is called
+“total surface/all particles. ”For FPA-FTIR imaging, this
+may be possible for fragments down to 10 –20μm. For single
+particle measurement (e.g., for RM), this is appropriate, if thefragment count is below 1000 (or 500 for practical reasons,7000 best practice). If this number of fragments is exceeded,
+sub-sampling is necessary to reduce measurement time. This
+is similar to a second sampling step, where all fragments onthe filter represent the lot. The objective is to make a correct
+selection. According to the theory of sampling [ 91], all frag-
+ments of the lot must have the same probability of being
+selected as part of the sub-sample. Therefore, no bias is intro-
+duced into the process. The investigated fragments are in the
+size range of 10 –500μm( o r5 –500μm) and might agglom-
+erate depending on their physical properties. Thus, they may
+not have an even, random distribution on the filter (Fig. 2:
+inhomogeneous particle distribution, i.e., grouping of particles
+according to material type is represented in blue, yellow, and
+green). This effect is expected to be negligible for fragments at
+the lower end of the size range, but will have a great effect on
+fragments at the upper end. A homogenization step for the
+fragments on the filter would be required. Usually, homoge-nization implies the reduction of grain size or thorough
+mixing, none of which is applicable to particles deposited on
+a filter. Therefore, a virtual mixing is required. The virtualmixing can be achieved by applying three types of sub-sam-
+pling. The most advisable sub-sampling strategy is the random
+model. This corresponds to a random selection of particles,without replacement, from the original lot (all particles on the
+filter) to form the sub-sample. However, random sampling is
+not applicable with every software. Another possibility is totake multiple “cake”slices (see Fig. 2). The “cake”model is
+suitable for taking into account an inhomogeneous distribu-tion of particles between the center and the edge of the filter.In order to represent also inhomogeneous distribution of par-
+ticles among different filter areas (e.g., filter halves), multiple
+“cake ”slices must be analyzed. To avoid a grouping and
+segregation error, all large fragments (> 50 μm) should be
+measured (up to a number of 1000 or 500 for practical rea-sons). Particles down to a size of 5 μm should be analyzed on
+“cake”slices that, in sum, cover at least 20% of the total filter
+area. If even smaller particles (1 –5μm) are targeted, particles
+in this size range should be analyzed separately, using anobjective with higher magnification. In previous works, 4%
+of the filter area have been investigated for analyzing this size
+class [ 32]. As a suitable alternative, the “snail ”model (also
+called “helix ”model, see Fig. 2) can be applied. It uses boxes
+that are distributed along a spiral to represent all areas of thefilter (center and edges). In contrast to the “cake”model, itap
+plies many small boxes. Reducing the box size, while in-
+creasing the box number, contributes to a virtual mixing of thefragments and, therefore, reduces the grouping and segrega-tion error [ 93]. For this model, the same rules for filter area
+and fragment number apply, as for the “cake ”model. The
+ultimate reduction in box size and increase in box number willfinally result in the most advisable model, the random model.
+The random model can be applied in two forms: a full random
+sampling (selection of particles regardless of their size) or astratified random sampling in different size classes (e.g., 1000
+particles ≥50μm and 7000 particles < 50 μm). The random
+model ensures an unbiased selection, and the error can be
+estimated with Eq. 1 based on the final measured MP content
+[87].
+n≥
+P/C16
+1−P/C17
+e2
+σ2þP/C16
+1−P/C17
+Nð1Þ
+Variable Symbol Required information
+Confidence interval σ= 1.65 For 90%
+Total number of particles N Particle count from detection
+Estimated MP content P From prior experiments/literature
+Margin of error E Inherent to research question
+Sample size n Determined by image analysis
+The error for different sample sizes and MP contents is
+displayed in Fig. 3(the script and an executable file are added
+in ESM, section S2). The number of particles that need to be
+chemically identified for an effective quantification dependshighly on the expected MP content and the desirable error
+margin. The goal is to minimize the number of randomly
+selected particles in the sub-sample to save valuable measure-ment time. As can be seen in Figure 3, 7000 particles, which
+correspond to approx. 48 h measurement at 20 s acquisitiontime per particle (e.g., over the weekend, or approx. 12 h for5 s per acquisition time per particle) is suitable for most MP
+contents and error margins (all green and blue lines except
+solid blue). If the MP proportion should in fact be smaller thanexpected (yellow solid line), the measurement of further par-
+ticles is necessary. This is easy to accomplish as additional
+particles, which were not measured previously, can be ran-
+domly selected from the sample and measured to augment
+the original sample size. Should the error margin be set tooambitiously (blue solid line) there are two options: (1) mea-
+sure more particles to be within the error margin or (2) recal-
+culate the error margin and accept a greater error margin thanoriginally desired. In case a very high MP content, e.g., 10% is
+expected, a threshold close to 2000 particles may already suf-
+fice (all green lines). A threshold of 7000 particles is sufficient5983 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+to ensure a representative sampling in most cases. However, if
+the MP content is very low (e.g., 0.1%, see yellow line in Fig.
+3), only filters with small numbers of deposited particles can
+be measured quantitatively. This underlines the importance of
+sample preparation, i.e., removal of inorganic and organic
+matrices in order to increase the ratio of plastic to non-plastic fragments.
+While Gy ’s theory of sampling and the work of Anger and
+von der Esch et al. [ 87] provide means to estimate sub-
+sampling errors theoretically, Brandt et al. have investigated
+the errors introduced by different sub-sampling sizes and
+models based on actual samples [ 94]. For that purpose, they
+have chosen fully analyzed filters from 27 environmental sam-
+ples (rain water, riverine surface water, riverine sediment or
+beach sand, wastewater sludge) and performed artificial sub-samplings according to the random model (stratified and full
+random) as introduced here, and different area box-placement
+strategies, among others, one that resembles the snail model.The environmental samples contained between 1500 and
+33,000 particles, and had MP contents between 0.5 and
+4.7%. Brandt et al. [ 94] found that none of the tested sub-
+sampling models clearly outperformed the others, apart from
+edge scenarios (i.e., area box-placement models perform
+worse for filters with < 2000 particles and inhomogeneous
+particle distribution). Furthermore, they recommended mea-
+suring at least 7000 particles or 50% of the particles using therandom models, or 50% of the filter area in box-placement
+models, if the sub-sampling error is to be kept below ± 20%
+(which corresponds to e = 40% in the approach of Anger andvon der Esch et al. [ 87]). Concerning the random models, the
+advice to measure 7000 particles lines out with the recommen-dations discussed before, but measuring 50% of the particleson a filter is, in part, stricter than Figure 2would suggest.
+However, Brandt et al. [ 94] found that the standard deviation
+of the sub-sampling error increases considerably with decreas-ing measurement fraction, while the graphs in Figure 2rely on
+the standard deviation of the normal distribution. Therefore,Brandt et al. tailored their recommendation to meet the < 20%sub-sampling error requirement with more security.
+Furthermore, it has to be noted that discussed random sub-
+sampling strategy is well applicable for particles larger than5–10μm, where all particles on the filter can be detected, the
+minimal sample size can be calculated, and errors can bequantified. In contrast, smaller particles might not all bedetected on the entire filter, demanding a window-based
+analysis. For this purpose, a bootstrap method has been
+recently proposed by Schwaferts et al. [ 95] to provide an
+error quantification with confidence intervals from the
+available window data. In this context, different window
+selection schemes have been evaluated and there is a clearrecommendation to employ random (rather than systemat-
+ically placed) window locations with many small rather
+than few larger windows.In summary, if applicable and technically possible, all par-
+ticles on the filter should be measured ( “total surface/all par-
+ticles ”). Otherwise, a sub-sampling strategy has to be applied.
+The most recommendable sub-sampling strategy is the ran-
+dom model, because it is not susceptible to inhomogeneous
+particle distributions on a filter. Only if a random model can-not be realized (e.g., due to technical reasons) the “cake ”
+model or area box-placement models such as the “snail ”mod-
+el should be applied. In that case, sampling of small but nu-merous boxes or “cake slices ”is always preferable.
+While for the random model, theoretical error calculations
+have been proposed, they must still be developed for area box-placement models (e.g., “cake”and“snail ”), which will be
+especially challenging for heterogeneous samples. Further re-search is also needed for validating any of these models usingactual, fully measured samples and artificial sub-sampling.
+Analytical outlook
+In addition to the commonly used IR and Raman approachespreviously described, some more recently developedapplications/techniques show promising potential for the anal-
+ysis of micro- and nanoplastic pollution in the future.
+Theoretically, μ-(FT)IR and RM are limited to minimal parti-
+cle sizes of about 10 μmr e s p .3 0 0n m[ 31,64,77,86,87].
+Recently, the potential use of confocal RM for particle sizeseven below this limit (down to 100 nm) was demonstrated [ 96,
+97]. Small micro- and nanoplastic particles (down to a size of
+50 nm) can be analyzed directly in liquids via a combinationof RM and optical tweezers (OT) [ 98]. Moreover, separation,
+characterization, and chemical identification of these particles
+can be realized via online coupling of field-flow fractionation
+and RM enabled by OT [ 99]. Furthermore, IR spectroscopy
+can be combined with other techniques such as atomic forcemicroscopy (AFM) to lower its spatial resolution to about 20 –
+50 nm [ 100,101], thus permitting the analysis of plastic par-
+ticles at nanoscale. Surface-enhanced Raman spectroscopy(SERS) may play a role in future applications as recentlyshown by Zhou et al. for PS nanoplastics as small as 50 nm
+[102]. The spatial resolution could be improved in the future
+by the application of tip-enhanced Raman spectroscopy
+(TERS) [ 103]. However, the applicability of these methods
+for different polymer types and on real samples has still tobe demonstrated. Especially organic residues, such as humicacids, which might not be entirely removable, might cause
+interferences [ 9].
+Data processing
+Spectroscopic methods provide information not only onchemical identity but also on particle characteristics (e.g., size,
+shape, color). Thus, data processing has to evaluate large sets5984 Schymanski D. et al.
+of spectral as well as particle-related data. Due to the large
+number of particles, we suggest using computational, highly
+automated solutions for time-efficient analysis. Instrumentmanufacturers are only beginning to offer particle analyzer
+programs that not only allow for the acquisition of large num-
+bers of spectra automatically but also provide high-performance data-processing tools. Meanwhile, research
+groups have developed their own data-processing routinesb a s e do nc o m m e r c i a ls o f t w a r e[ 104]. Furthermore, open-
+source solutions for both μ-FTIR imaging (e.g., siMPle [ 79])
+and RM ( TUM-ParticleTyper [62]; see “Raman
+microspectroscopy ”) or for RM and μ-FTIR spectroscopy
+(GEPARD [49 ]; see “Raman microspectroscopy ”)a r e
+used. In the following, general guidelines for spectra eval-uation and reporting for any data-processing approach aredescribed.
+Regardless of the applied measurement method, large num-
+bers of spectra are generated. They must be evaluated whileassuring both correct identification and time-efficient process-
+ing. Ideally, the software tools do not only ensure equal treat-
+ment of all spectra of a dataset, but they also are fast and stablewhen processing large datasets and provide convenient for-
+mats of data output as well as (easy to use) tools for the oper-
+ator to evaluate and double-check the identification of the
+automatically acquired spectra.
+There are various approaches to the evaluation of spectra,
+such as correlation to spectral databases [ 29,74,105], model-
+based classification [ 104], or descriptive methods (e.g., mul-
+tivariate curve resolution-a lternating least squares (MCR-
+ALS) and independent component analysis (ICA)) (ElRakwe et al., in prep.). Database searches rely on similarity
+measures, such as the absolute distance, the Euclidean dis-tance, least squares [ 106], or the Pearson correlation coeffi-
+cient to find an unknown spectrum ’s match in a database. For
+large datasets, the correlation of spectra to databases can be-come very slow or require high computational power.
+Reducing the number of spectra in the database can reduce
+the processing load. Nevertheless, database searches can reachmethod-intrinsic performance limits, especially for spectra
+from environmental samples with low signal-to-noise ratios
+or other deviations from the ideal polymer spectra.Alternatively, training a set of chemometric classifiers, i.e.,
+of random decision forest (RDF) classifiers, in combination
+with applying spectral descriptors for data preprocessing wasproposed [ 64,104]. Classifiers are complex algorithms that
+sort data into categories of information (classes). They learnto predict the class affiliations of unknown data from labeledtraining data. For the identification of polymer spectra, a train-
+ing dataset is used which is comprised of a sufficient number
+of representatives from all the polymer classes that shall bedetected. For further details, reference may be made to
+Hufnagl et al. [ 104]. Spectral classifiers or descriptive
+methods can reduce the computational demands, but theirimplementation is not trivial and becomes more challengingas the number of substance classes increases.
+To date, the most common approach is the correlation of
+spectra to databases. During this process, the search parame-ters (e.g., raw or derivative spectra, spectral range, model of
+comparison [ 106]), data treatment (e.g., background correc-
+tion, spectral normalization), and spectral quality can signifi-
+cantly influence the results [ 107]. Likely, the best control of
+whether a polymer spectrum has been identified correctly is an
+experienced spectroscopist ’s evaluation. Such a manual QC
+can, however, be time-consuming due to the large number ofspectra. As an alternative, quality criteria for the automatedspectral identification can be defined. Database software fre-
+quently provides a quantitative criterion for the similarity of a
+spectrum and a database spectrum, which is often referred to
+as
+the hit quality index (HQI). Using a HQI of 70% as a
+threshold for accepting a result as correct has been suggested[68,108]. Beside this absolute value, the HQI difference
+(ΔHQI) of the first to the second-best hit can be consulted,
+reflecting especially the selectivity of the correlation as point-ed out by Renner et al. [ 109]. For this purpose, two suitable
+approaches to define a threshold exist: (i) ΔHQI≥10% or (ii)
+ΔHQI ≥HQI × 0.1. However, both concepts will not allow
+distinguishing between similar polymers or subclasses of
+polymers like low and high density polyethylene (LDPE and
+HDPE) or polyamide 6 and polyamide 6.6 (PA 6 and PA 6.6)making re-evaluation by manual inspection necessary
+[109–111].
+Furthermore, it has to be underlined that HQI values gen-
+erated with different software might not be comparable, as thesuppliers have implemented varying algorithms. Furthermore,
+the absolute HQI value depends on the quality of spectra andthe type of sample (reference material or environmental sam-
+ple). Consequently, the data pretreatment, the applied correla-
+tion algorithm, as well as the database to which the spectrawere correlated needs to be reported in studies [ 109]. As the
+HQI depends on many different factors, a general numericalvalue cannot be defined as a quality criterion. If a laboratorychooses to use only the HQI as quality criterion, determination
+and validation of the HQI thresholds with respect to the in-
+strumental capabilities and the analyzed sample types isobligatory.
+To the best of our knowledge, there are no standard oper-
+ation protocols on how to accomplish validation of HQIthresholds, but a thought experiment based on statistical hy-
+pothesis tests could be considered and is described in the
+ESM, section S3. It should be noted that it has not been testedin routine analysis, so its purpose is to provide the reader with
+a suggestion on how to approach the task. We strongly en-
+courage the laboratories to thoroughly test and modify theapproach and to share their findings.
+Current experience is not yet sufficient to provide an assur-
+ance to readers that statistical hypothesis tests allow a failure-5985 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+safe determination of a correct HQI but we encourage verify-
+ing one ’s HQI thresholds with a suitable approach instead of
+picking an unsubstantiated number.
+If approaches other than correlating spectra to databases are
+used, these recognition models have to be validated and re-
+ported just as the HQI values described above.
+As a standard set for spectral identification, we suggest to
+include the following main polymers: polyethylene (PE), poly(ethylene terephthalate) (PET), PP, PS, PC, poly (vinyl chlo-ride) (PVC), poly (methyl methacrylate) (PMMA), PTFE,
+polyamide (PA, nylon), and polyurethanes (PU). The latter
+can possess a variety of side groups depending on the mono-mers they are made from, resulting in differing IR and Raman
+spectra. It is thus recommended that different kinds of PU are
+included into the set of standard polymers. Since spectra ofpolymers can differ significantly due to weathering of MPs, it
+is also advisable to include spectra of aged polymers in the
+database [ 112]. Each laboratory is furthermore recommended
+to augment this set with further polymers (e.g., acrylonitrile
+butadiene styrene (ABS), natural rubber, copolymers) as well
+as non-synthetic and/or non-polymeric materials that cancommonly occur in samples (e.g., amorphous carbon, cellu-
+lose, proteins, inorganic materials such as quartz, and other
+minerals). As stated in “Raman microspectroscopy, ”Raman
+spectroscopy can identify additives such as pigments anddyes. In the case of these colorants, their typically sharp peakscan be of higher intensity than polymer peaks. Therefore,
+optimized measurement parameters have to be applied for
+identification of colorants/pigments and polymers. In orderto recognize these potentially polymeric particles, the inclu-
+sion of a library of common dyes for polymers can be useful.
+Spectral libraries are commercially available, but many soft-ware tools for database search allow the creation of personal-
+ized libraries. This can be advantageous as database and sam-
+ple spectra are obtained with the same instrument, and spectraof potential contaminants occurring just in a certain lab can be
+included [ 80]. Very recently, Cowger et al. developed a new
+open-source library (Open Specy) for MP identification for
+both measurement techniques, RM and IR. Regarding particle
+identification, it is fully comparable to commercial software.
+Users can upload and share their own spectra with the com-munity, so that the library is continuously growing and im-
+proving [ 113].
+The operator must pay attention to distinguish the spectra
+of PA and proteins. For both techniques, they can be distin-guished well when comparing high-quality spectra. However,
+as spectra from environmental samples are often distorted,identification has to rely on the most prominent peaks, which
+are similar both in Raman and in (FT)IR spectroscopy.
+Detailed information on this difficulty can be found in theESM, section S1. Molecules containing long carbon chains
+can have very similar IR and/or Raman spectra. This is the
+case, for example, between PE and stearates (e.g., found inlatex gloves and used as food additives), stearamides (e.g.,
+used as polymer additives and slipping agents) or sodium
+dodecyl sulfate (e.g., used as detergent) ( [ 45] and unpub-
+lished data, N. Benismail).
+Overall, each laboratory is encouraged to augment these
+data-processing recommendations according to their needs.Details of the determination of the particle properties and the
+spectral identification must be reported as stated in “Ways of
+reporting results and valuable information. ”
+Method validation and quality controls
+In analytical chemistry, method performance is assured by the
+determination of QA and QC parameters. Both together provethat a given method is effective and reliable. These include the
+calculation of recovery rates, repeatability, reproducibility,
+limits of detection and quantification (LOD and LOQ), andblank contribution as well as overall robustness. In addition,
+ILC studies are necessary to check accuracy and precision of
+the methods used by different laboratories (see also Figure 1).
+Method validation is an analytical challenge, especially in
+the case of MP analysis, and the following difficulties must betaken into account: Unlike other conventional contaminants,MPs are not dissolved in aqueous samples, but are present in
+particulate form. Therefore, they are not homogenously dis-
+tributed and up to now, suitable certified reference materialsare not available. As the expected concentration and size of
+MPs in clean water are very low, a mass-based approach can-
+not be regarded as promising (see “Introduction ”). A first in-
+ternational ILC study on MPs in water has been initiated by
+the Joint Research Centre (JRC) of the European Union [ 21],
+but at the time of writing, the results and conclusions are still
+pending. They can be a basis for further international profi-
+ciency tests (PT).
+In most studies on MPs, QA/QC data include solely the
+analysis of blanks for control of sample contamination.Wang et al. used pre-filtered drinking water as blank sample.
+After filtration through aluminum oxide filters (pore size 0.22μm) and analysis with SEM and RM, the blank contribution
+was < 5% of MP abundance [ 114]. Pivokonsky et al. used
+water of HPLC-grade and analyzed particles > 10 μmw i t h
+FTIR spectroscopy and particles < 10 μm by RM. They also
+report a blank contribution < 5% [ 34]. On the other hand,
+Zhang et al. indicated that there was no blank contribution
+when filtering 1 l ultrapure water through nitrocellulose filters
+(pore size 0.45 μm) with subsequent ATR- μ-FTIR analysis
+[115]. Contrarily, filtration of 150 l of pre-filtered (with 3- μm
+stainless steel cartridge filters) drinking water using aluminumoxide filters (pore size 0.2 μm) resulted in a blank contribution
+of 45 ± 22 fibers of different colors [ 59]. Schymanski et al.
+reported a blank contribution of 14 ± 13 MPs (size down to 5μm) in 1 l ultrapure water (system fed with deionized water,5986 Schymanski D. et al.
+end filter with 0.22 μmp o r es i z e )[ 33]. Predominant polymers
+detected were PET, PE, PS, and PP. When analyzing particles
+down to a size of 1 μm, even blank values of 384 ± 468 MPs/l
+are common [ 32]. Furthermore, several authors report the pro-
+cedures to prevent sample contamination during MP analysis[34,52,116,117].
+However, published papers seldom provide QA/QC data re-
+garding efficiency, repeatability, and reproducibility or on LOD/LOQ. As methods are not suffici ently validated , quantitative
+analysis is affected by the analytical technique used and its
+capacity to detect and identif y MPs with confidence. So far,
+there are still important analyti cal limitations regarding the fil-
+tration step (choice of filters and sample volume) and the detec-tion and the identification potential of analytical methods (IR
+spectroscopy/RM). In addition, there is still a certain subjectivityfor data evaluation.
+Overall, there is an urgent need to perform analysis under
+QA/QC management. This will lead to more uniform andcomparable data. QA/QC measures of sampling, sample prep-
+aration, and detection will permit the development of a more
+realistic picture of MP occurrence, especially for small-sizedMPs [ 20,118].
+One of the main steps of the QA/QC system is to charac-
+terize the methodology and to perform the initial validation of
+the method. For this specific methodology, we propose to
+assess the following important steps:
+I.Verification of the size measurement capability of the
+equipment (minimum requirement)
+II.Verification of qualitative polymer identification at the
+claimed minimal size (minimum requirement)
+III. Determination of the LOD (minimum requirement)
+IV . Verification of the recovery rates of the entire method(best practice)
+V.Participation at interlaboratory comparisons and profi-
+ciency tests
+I.Verification of size measurement
+To prove that particles are being assigned correct size
+values, the size calibration of the particle detection
+should be performed with, for example, certified size
+standards or engraved plates/filters. Uncertified materialcan also be suitable, if the size is checked by optical
+microscopy. The particles with a certain size should be
+determined correctly within a tolerance of ± 10% [ 119],
+or, in case of imaging techniques which are tied to a
+certain pixel resolution, wi thin a tolerance of ± 1 pixel
+[64].
+II.Verification of qualitative polymer identification at min-
+imal sizeVerification of qualitative polymer identification should be
+performed using the most commonly applied polymers (PE,PET, PC, PP, PVC, PS, etc.) and analyzing at the claimed min-imal detectable size. For validation, MPs from real samples (with
+previously identified polymer type), commercially available
+polymer standards [ 61], or in-house-produced reference polymer
+particles [64, 69] may be used. Very recently, the JRC published
+their method on how they produced reference material for theabove-mentioned ILC [ 120]. The lab is required to achieve good-
+quality spectra. If an automated d atabase algorithm for polymer
+identification is used, acceptable quality indices for the librarymatc
+h should be documented (see HQI, “Data processing ”). It is
+highly recommended to check whether the expected polymers,
+e.g., the plastic container/cap of bottled water can be recognized
+by the analysis. Otherwise, these spectra have to be added to thedatabase or the analysis parameters must be adapted.
+III. Determination of the limit of detection
+The LOD is a global value demonstrating the capability of the
+laboratory to master its scientific equipment, filtration systems,
+but also the potential contamination of samples with MPs com-
+ing from the lab environment, air, operator, or lab materials [ 20].
+The most challenging QA/QC step is the verification of the
+quantitative MP count. Usually, the LOD and LOQ are com-
+mon parameters in analytical chemistry to describe the sensi-tivity of a method. The LOD describes the minimum amount
+of an analyte that can be detected but not necessarily quanti-
+fied [ 121]. The smallest accurately quantifiable amount of an
+analyte is described by the LOQ. There are different methods
+to determine or calculate the LOD and LOQ for calibratable
+techniques of dissolved substances, but these are not applica-ble to solid particles like MPs, which cannot be diluted. In this
+case, the LOD of the method, which describes the smallest
+amount of detectable MPs in the sample, can be determined asthe mean of blank samples plus the threefold standard devia-
+tion (minimum requirement; see Eq. 4). The determination of
+LOD based on blank values is in agreement with several re-
+cently published papers on microplastic analysis by μ-FTIR
+[53,64,122,123]. We suggest using 10 blank samples to
+initially calculate the LOD. Ideally, this should be done forevery particle size category/range that is given in the report
+with each LOD being expressed in relation to the size range
+values (e.g., LOD [5 μm] = 8 MPs). In practice, quoting the
+LOD for the smallest size class is sufficient.
+LOD ¼mean
+10blanksþ3*s10blanks ð4Þ
+Verification has to include the entire analytical process and
+has to take into account different polymers present in (blank)
+samples. Thus, LOD may be expressed as the undifferentiated
+sum of all polymers. For detailed scientific studies, polymer-
+specific LODs can be more advisable.5987 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+Additionally, when the experience in MP analytics has
+grown, the LOQ should be calculated and reported as the
+mean of 10 blanks adding the tenfold standard deviation (bestpractice). This will provide accurate qualitative data for the
+contamination of water samples.
+IV . Verification of the recovery rate of the entire method
+As long as there is no certified reference material and the
+possibility to prove the quality of the method with an ILC, the
+accuracy of a method is not fully provable [ 124]. Therefore,
+the recovery rates should be calculated based on the analysis
+of spiked samples (even with different levels of MPs) in the
+best practice approach [ 20]. Enders et al. determined the re-
+covery rate of their entire extraction procedure with a new
+modified separation funnel fo r particle-rich samples with
+60–80 fluorescent PE particles in the size range between 125
+and 150 μm[28]. They reported a recovery rate of 78 ± 6%.
+Although they published a protocol to extract MPs between
+10μm and 5 mm from environmental samples, they did not
+determine the recovery rate for particles between 10 –125μm
+and 150 μm–5 mm. For a best practice routine, recovery rates
+should be determined for the whole particle size range targeted
+in the analysis. However, exact spiking of particle numbers
+with sizes < 100 μmi ss t i l lac h a l l e n g e .
+Analysis of standards for cytometers can be an alternative,
+if it is proven, that the system recognizes the spherical shapescorrectly [ 119]. Another possibility is to use commercially
+available MPs of different sizes [ 61] or to produce own refer-
+ence materials [ 69]. Applying the latter method, dispersed
+secondary MP reference particles can be generated via ultra-
+sonic treatment. Nevertheless, there is still a high need forreference materials of different polymer types with a defined
+number, size or size range, and shape (incl. spheres, irregular
+fragments, films, and fibers). These would enable comprehen-sive validation and ILC studies for different methods.
+To simplify, one can determine the recovery rate of the
+whole method with just one kind of polymer, assuming asimilar behavior of main polymers during preparation and
+filtration steps of the method.
+Once the important characteristics of the method are veri-
+fied, the lab should complete the quality management of themethod by systematically preparing blank (process) controls
+in each series of samples. These blank samples are necessaryto demonstrate the correct sample handling and to ensure the
+validity of the results (see “Laboratory blanks ”).
+V.Participation at interlaboratory comparisons and profi-ciency tests
+An important step in the generalized acceptance of analyt-
+ical methods is their testing through ILC. Currently, there are
+no widely accepted standardized methods and very fewreports of ILC or PT undertaken to evaluate potential analyt-
+ical MP procedures. In literature, a number of projects or con-
+sortia have reported the organization of restricted, internal ILC[23,27,125]. However, with the exception of the work of
+Isobe [ 126], where MP particles ranging from 0.4 to 5.7 mm
+were analyzed, the detailed outcome of the results is not open-ly available. With regard to ILC or PT studies, where partic-
+ipation is freely accessible to a wide range of laboratories,
+there are no fully documented studies at this time. But, recentinitiatives by QUASIMEME [ 22] and subsequently JRC [ 21]
+provide examples of ongoing trials. These two examples nei-ther propose predefined methods or protocols, but rather sup-ply participating laboratories with one or more types of (as far
+as possible homogeneous and stable) MP-containing samples.
+These samples are analyzed by methods and procedures,which the participants judge appropriate to provide the re-
+quested data, e.g., plastic identity, particle number, and parti-
+cle size. In both cases, the results and experience gained dur-
+in
+g the trials are intended to aid harmonization of methodolo-
+gies while, in the latter case, an additional aim is to undertakethe first steps toward the development and evaluation of po-tential MP reference standards.
+While the lack of information from ILC studies is limiting
+method development and harmonization, there is a growing
+public and political awareness of MPs, which is driving leg-
+islation. It will require standardized methods, e.g., the recast ofthe EU Drinking Water Directive [ 127]. These legal drivers
+will increase the need for methods to be subjected to morerigorous QC tools, such as ILC and PT exercises. Qualitycontrol will in turn require general access to fit-for-purpose
+reference materials. The development of such materials will
+be a technically complex and time-consuming process, whichpresents many challenging issues. Firstly, defining how a ref-
+erence material should be designed is a key issue given the
+huge range of polymer types, additives, shapes, sizes, andconcentrations, which can be present in the many types of
+background matrices. For some applications, such as MPs in
+drinking water, the composition (regarding the variety ofpolymer types and size range and shape of MPs) may be
+simpler. For other sample types, such as sediments or munic-
+ipal wastewater, test samples will be much more complex todefine representatively. Secondly, it is likely that widely avail-
+able standards would incorporate artificially manufactured
+MPs (e.g., mechanically mille d or custom synthesized).
+These may present behavioral variations (agglomeration state,
+adhesion to filters and laboratory equipment) resulting from
+their surface properties (hydrophobicity, charge), which arenot typical for MPs from real (environmental) samples.
+These differences in the behavior of MP fragments may influ-
+ence overall sample recovery and, in the case of agglomera-tion, compromise particle counting results. One possibility to
+overcome these limitations is to generate dispersed secondary
+MP reference particles via ultrasound treatment [ 69]. Finally,5988 Schymanski D. et al.
+verifying adequate homogeneity across sample batches and
+testing temporal stability will need reliable and reproducible
+procedures prior to performing more extended ILC trials.These will be necessary to assign consensus values (particle
+number, mass, size distribution, etc.) to the standards.
+Ways of reporting results and valuable
+information
+A report of MP analysis must contain all parameters of the
+sample, sample treatment (description of filtration, filter type,and pore sizes), and the analytical methods [17]. For the calcu-
+lation of the total number of microplastics in the sample,
+subtracting the laboratory blank value of the sample series orthe limit of reporting from the sample results is not recommend-
+ed. The laboratory should indi cate the value of LOD with the
+results. For (FT)IR spectroscopy , these are measurement mode,
+use of FPA detectors, spectral ra nge, spectral resolution, and
+number of co-added spectra. Parameters for RM that need to be
+reported are as follows: optical imaging mode (bright or darkfield), spatial resolution of the image (pixel size), microscopic
+objective (magnification and numerical aperture) for Ramanmeasurement, confocality, wavelength of excitation laser andlaser power at the sample, grating, focal length of the spectrom-
+eter, exposure time, and the number of co-added spectra. For
+both spectroscopic methods, the description and validation ofthe spectral identification rou t i n eh a v et ob ei n c l u d e d .F o rc o m -
+munication of the analytical results, a report on the MP contentof a sample obtained with spectroscopic methods must containthe following results:
+&Total number of particles in the sample or sub-sample (see
+“Models for sub-sampling of particles deposited on a fil-
+ter,”if possible to obtain this value with the instrument
+used)
+- In case of sub-sampling additionally: analyzed area ofthe filter (%) or statistical percentage of analyzed particleson the total number of particles (%)
+&Number of particles analyzed (obtained by measurement)
+&LOD: preferably size-dependent (see “Method validation
+and quality controls ”for more details)
+&Number of total MPs identified (obtained by extrapolation
+or measurement)
+-B yt y p eo fp o l y m e r-B ys i z er a n g e s
+At present, it is common practice to report MP numbers in
+predefined size classes, i.e., in a binned form [ 10,54,81,128,
+129]. By this, the details on the size of each MP detected insamples get lost. However, these details are relevant for riskassessment. As the non-alignment of methods and reporting
+hinders risk evaluation [ 130], future studies should at least use
+the same size classes for binning, as proposed in Table 1in the
+section on analysis: 1 –5μm, 5–10μm, 10 –20μm, 20 –50μm,
+50–100μm, 100 –500μm, and > 500 μm. Nevertheless, the
+future best practice should include the reporting of details on
+the particle size of all detected MPs, e.g., in the form of sup-
+plementary data or at least on demand.
+As additional information or upon request, the report might
+contain:
+&De
+tails about blank samples (number, type of polymer,
+size range)
+&Shape (e.g., fragment, fiber, sphere) and color of particles
+&(Microscopic) images of measured filters
+&Number of (potential) MPs not included in the minimum
+set of polymer classes proposed in “Data processing ”
+(e.g., colored polymers, pigment or dye particles) sorted
+by type or by size range, shape, color, etc.
+&Total number of non-plastic particles identified (e.g., min-
+erals, proteins, cellulose) sorted by type or size range,
+shape, color, etc.
+&Total number of non-identified particles
+&Software and routines used for
+- Determining particle properties- Spectra processing
+- Spectral identification; in the case of database searchinformation about the database (commercially, home-
+made); if a HQI was used, the algorithm used and how
+the threshold was determined
+Laboratories must only express quantitative results, if they
+exceed the LOD at the size limit of the method. Particles thatare, e.g., smaller than the filter pores, can be found on a filter
+nevertheless, if deposited between the pores. The proportion
+of such particles retained is unknown, and thus, their numberis not representative for the sample. Furthermore, blanks and
+possible cross-contaminations have not been evaluated for
+particles smaller than the size limit. However, these numberscan be of interest as an indicator of the amount of smaller
+particles in the sample. Thus, if a laboratory provides these
+quantitative values, it must demonstrate unambiguously thatany of the particles counted are intrinsic to the sample in order
+to eliminate any risk of false-positive results, and state that this
+number is not representative for the sample.
+Discussion and conclusions
+The lack of harmonized methods and analytical standardsubstances and the difficulty to validate methods for the5989 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+determination of MPs in clean water have led to highly
+variable and even sometimes contradictory data [ 15]. The
+proposed quality criteria by Koelmans and colleagues in-
+clude the sampling method, sample size, sample process-
+ing and storage, laboratory pr eparation, clean air condi-
+tions, positive and negative controls, sample treatment,
+and polymer identification. The present consensus paper
+discusses and sums up details regarding the most impor-
+tant spectroscopic methods that can be used for MP anal-ysis in clean water. All of the above-mentioned quality
+criteria were integrated in this guideline (see Table 1). It
+allows the reader to compare and evaluate existing stud-
+ies. Furthermore, the guidelines can be used to better un-
+derstand and thus make a more advantageous choice when
+setting up MP research studies. Given best practice ap-proaches will contribute to a better harmonization of ana-
+lytical methods for MP analysis in clean water samples
+down to 1 μm. A schematic overview of important pre-
+cautions for MP analysis and sampling advices are given
+in Figure 1.
+All these elements are intended to support the standardiza-
+tion processes throughout the different normalization commit-tees. While this consensus paper from twelve European ana-
+lytical laboratories and institutions has concentrated on
+(FT)IR/RM methods, for the purpose of monitoring as well
+as gaining a more comprehensive knowledge on MP contam-ination in food, water, air, and environmental samples, both
+spectroscopic and thermo-analytical methods are required.
+Therefore, it will also be important that a similar considerationbe given to harmonizing thermo-analytical methods for MP
+detection. Above all, an ongoing exchange of scientists and
+laboratories, ILC studies with certified polymer standards andcoordinating structures are required. These will pave the
+way to enable progress in the harmonization and standard-
+ization of MP detection and to allow for representativeand reliable MP analysis in different environmental and
+food samples.
+Acknowledgements and funding B. E. Oßmann thanks the
+Bavarian State Ministry of t he Environment and Consumer
+Protection for funding the projects “Detection of microplastics in
+selected foods ”and “Expansion of the analytics of microplastics in
+food. ”S. Lacorte acknowledges funding from the Ministry of
+Science and Innovation of Spain (project PID2019-105732GB-
+C 2 1 ) .J .W e i s s e r ,K .G l a s ,T .H o f m a n n ,N .P .I v l e v a ,a n dE .v o n
+der Esch receive funding from the Bavarian Research Foundation
+(Bayerische Forschungsstiftung (BFS), AZ-1258-16 ( “MiPAq ”). N.
+P. Ivleva thanks the Federal Mini stry of Education and Research
+(Bundesministerium für Bildung u nd Forschung (BMBF), projects
+02WPL1443A “SubμTrack ”and 03F0851B “HOTMIC ”)f o rfinancial support. D. Fischer an d F. Fischer ackno wledge funding
+from the projects MicroCatch_Balt, PLASTRAT, PLAWES by theBMBF in the call “Plastics in the environment, ”as well as from the
+BONUS BLUE BALTIC project MICROPOLL, which has receivedfunding from BONUS (Art 185), funded jointly by the EU and the
+BMBF. N. Zumbülte and C. S. Witzig acknowledge funding by the
+BMBF of the project “MicBin. ”
+Funding Open Access funding enabled and organized by Projekt
+DEAL.
+Declarations
+Conflict of interest The authors declare no competing interests.
+References
+1. Andrady AL. Microplastics in the marine environment. Mar.
+Pollut. Bull. 2011. https://doi.org/10.1016/j.marpolbul.2011.05.
+030.
+2. Thompson RC, Olsen Y, Mitchell RP, Davis A, Rowland SJ, John
+AWG, et al. Lost at sea: where is all the plastic? Science. 2004.https://doi.org/10.1126/science.1094559 .
+3. Braun U, Jekel M, Gerdts G, Ivleva NP, Reiber J. Microplastics
+analytics: sampling, prepar ation and detection methods.
+Discussion Paper within the scope of the research focus "Plastics
+in the Environment: Sources, Sinks, Solutions"; 2018.
+4. Hartmann NB, Hüffer T, Thompson RC, Hassellöv M, Verschoor
+A, Daugaard AE, et al. Are we speaking the same language?
+Recommendations for a definition and categorization frameworkfor plastic debris. Environ Sci Technol. 2019. https://doi.org/10.
+1021/acs.est.8b05297 .
+5. International Organization for Standardization (ISO). ISO/TR
+21960:2020: Plastics - environmental aspects - state of knowledgeand methodologies (21960:2020); 2020. https://www.iso.org/
+standard/72300.html . Accessed 17 Feb 2021.
+6. State Water Resources Control Board. Adoption of definition of
+'microplastics in drinking water': resolution no. 2020-0021. 2021.https://www.waterboards.ca. gov/board_decisions/adopted_
+orders/resolutions/2020/rs2020_0021.pdf .
+7. Koelmans AA, Besseling E, Shim WJ. Nanoplastics in the aquatic
+environment. Critical review. In: Bergmann M, Gutow L, KlagesM, editors. Marine anthropogenic litter: Springer InternationalPublishing; 2015. pp. 325 –340.Supplementary Information The online version contains supplementary
+material available at https://doi.org/10.1007/s00216-021-03498-y .Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing, adap-
+tation, distribution and reproduction in any medium or format, as long as
+you give appropriate credit to the original author(s) and the source, pro-vide a link to the Creative Commons licence, and indicate if changes weremade. The images or other third party material in this article are included
+in the article's Creative Commons licence, unless indicated otherwise in a
+credit line to the material. If material is not included in the article'sCreative Commons licence and your intended use is not permitted bystatutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/ .5990 Schymanski D. et al.
+8. Ter Halle A, Jeanneau L, Martignac M, Jardé E, Pedrono B, Brach
+L, et al. Nanoplastic in the North Atlantic subtropical gyre.
+Environ Sci Technol. 2017. https://doi.org/10.1021/acs.est.
+7b03667 .
+9. Schwaferts C, Niessner R, Elsner M, Ivleva NP. Methods for the
+analysis of submicrometer- and nanoplastic particles in the envi-ronment. Trends Analyt. Chem. 2019. https://doi.org/10.1016/j.
+trac.2018.12.014 .
+10. Winkler A, Santo N, Ortenzi MA, Bolzoni E, Bacchetta R,
+Tremolada P. Does mechanical stress cause microplastic releasefrom plastic water bottles? Water Res. 2019. https://doi.org/10.
+1016/j.watres.2019.115082 .
+11. Ivleva NP. Chemical analysis of microplastics and nanoplastics:
+challenges, advanced methods and perspectives. Chem Rev; sub-
+mitted. 2021.
+12. WHO. Microplastics in drinking-water. Geneva: World Health
+Organization; 2019.
+13. State California. Health and Safety Code - California Safe
+Drinking Water Act [116270 - 116755].
+14. European Parliament and the Council. Directive (EU) 2020/2184
+of the European Parliament and of the Council of 16 December
+2020 on the quality of water intended for human consumption(recast): OJ L 435, 23.12.2020, p. 1 –62.
+15. Koelmans AA, Mohamed Nor NH, Hermsen E, Kooi M, Mintenig
+SM, de France J. Microplastics in freshwaters and drinking water:
+critical review and assessment of data quality. Water Res. 2019.
+https://doi.org/10.1016/j.watres.2019.02.054 .
+16. Zarfl C. Promising techniques and open challenges for
+microplastic identification and quantification in environmentalmatrices. Anal Bioanal Chem. 2019. https://doi.org/10.1007/
+s00216-019-01763-9 .
+17. Cowger W, Booth AM, Hamilton BM, Thaysen C, Primpke S,
+Munno K, et al. Reporting guidelines to increase the reproducibil-ity and comparability of research on microplastics. Appl.Spectrosc. 2020. https://doi.org/10.1177/0003702820930292 .
+18. Hidalgo-Ruz V, Gutow L, Thompson RC, Thiel M. Microplastics
+in the marine environment: a review of the methods used foridentification and quantification. Environ Sci Technol. 2012.
+https://doi.org/10.1021/es2031505 .
+19. Hermsen E, Mintenig SM, Besseling E, Koelmans AA. Quality
+criteria for the analysis of microplastic in biota samples: a critical
+review. Environ Sci Technol. 2018. https://doi.org/10.1021/acs.
+est.8b01611 .
+20. Brander SM, Renick VC, Foley MM, Steele C, Woo M, Lusher A,
+et al. Sampling and quality assurance and quality control: a guide
+for scientists investigating the occurrence of microplastics across
+matrices. Appl. Spectrosc. 2020. https://doi.org/10.1177/
+0003702820945713 .
+21. JRC. Call for laboratories to participate in proficiency tests on
+microplastics in drinking water and sediments. 2019. https://ec.
+europa.eu/jrc/en/science-update/call-labor atories-participate-
+proficiency-tests-microplastics-drinking-water-and-sediments .
+22. QUASIMEME. QUASIMEME study 2019. 2019. http://www.
+quasimeme.org/gfx_content/documents/QUASIMEME%20Interlaboratory%20StudyPlastics%20flyer.pdf .
+23. Müller YK, Wernicke T, Pittroff M, Witzig CS, Storck FR,
+Klinger J, et al. Microplastic analysis— are we measuring the
+same? Results on the first global comparative study for
+microplastic analysis in a water sample. Anal Bioanal Chem.
+2020. https://doi.org/10.1007/s00216-019-02311-1 .
+24. Jekel M, Anger P, Bannick CG, Barthel A-K, Braun U, Braunbeck
+T, Dittmar S, Eisentraut P, Elsner M, Gnirß R, Grummt T, HanslikL, Huppertsberg S, Ivleva NP, Klöckner P, Knepper TP, Köhler
+H-R, Krais S, Kuckelkorn J, May E, Müller YK, Nießner R,
+Obermaier N, Oehlmann J, Pittroff M, Reemtsma T, Schmieg H,Schmitt T, Schür C, Storck FR, Strobel C, Triebskorn R, WagnerM, Wagner S, Witzig CS, Zumbülte N, Ruhl AS. Mikroplastik im
+Wasserkreislauf: Universitätsverlag der TU Berlin; 2020.
+25. Altmann K, Braun U, Fischer D, Fischer F, Ivleva NP, Sturm H,
+Witzig CS, Zumbülte N. QST1: Vergleichsversuch; 2021.
+26. Braun U, Altmann K, Bannick CG, Becker R, Bitter H, Bochow
+M, et al. Mikroplastik-Analytik: Probenahme, Probenaufbereitung
+und Detektionsverfahren. Stand: November 2020; 2020.
+27. BASEMAN-Project. BASEMAN-Project. http://www.jpi-oceans.
+eu/baseman/main-page . Accessed 17 Feb 2021.
+28. Enders K, Lenz R, Ivar do Sul JA, Tagg AS, Labrenz M. When
+every particle matters: a QuEChERS approach to extractmicroplastics from environmental samples. MethodsX. 2020.https://doi.org/10.1016/j.mex.2020.100784 .
+29. Renner G, Schmidt TC, Schram J. Analytical methodologies for
+monitoring micro(nano)plastics: which are fit for purpose? Curr.
+Opin. Environ. Sci. Health. 2018. https://doi.org/10.1016/j.coesh.
+20
+17.11.001 .
+30. Primpke S, Christiansen SH, Cowger W, de Frond H, Deshpande
+A, Fischer M, et al. Appl. Spectrosc. 2020. https://doi.org/10.
+1177/0003702820921465 .
+31. Ivleva NP, Wiesheu AC, Niessner R. Microplastic in aquatic eco-
+systems. Angew Chem Int Ed Engl. 2017. https://doi.org/10.1002/
+anie.201606957 .
+32. Oßmann BE, Sarau G, Holtmannspötter H, Pischetsrieder M,
+Christiansen SH, Dicke W. Small-sized microplastics andpigmented particles in bottled mineral water. Water Res. 2018.
+https://doi.org/10.1016/j.watres.2018.05.027 .
+33. Schymanski D, Goldbeck C, Humpf H-U, Fürst P. Analysis of
+microplastics in water by micro-Raman spectroscopy: release ofplastic particles from different packaging into mineral water.
+Water Res. 2018. https://doi.org/10.1016/j.watres.2017.11.011 .
+34. Pivokonsky M, Cermakova L, Novotna K, Peer P, Cajthaml T,
+Janda V. Occurrence of microplastics in raw and treated drinking
+water. Sci. Total Environ. 2018. https://doi.org/10.1016/j.
+scitotenv.2018.08.102 .
+35. Stock V, Böhmert L, Lisicki E, Block R, Cara-Carmona J, Pack
+LK, et al. Uptake and effects of orally ingested polystyrenemicroplastic particles in vitro and in vivo. Arch Toxicol. 2019.
+https://doi.org/10.1007/s00204-019-02478-7 .
+36. European Pharmacopoeia. Particulate contamination: sub-visible
+particles; 1/ Ph. Eur. 2.9.19: reference 01/2005:20919. 5th Edition
+(official on January 2005).
+37. Hermsen E, Pompe R, Besseling E, Koelmans AA. Detection of
+low numbers of microplastics in North Sea fish using strict qualityassurance criteria. Mar. Pollut. Bull. 2017. https://doi.org/10.
+1016/j.marpolbul.2017.06.051 .
+38. Wiesheu AC, Anger PM, Baumann T, Niessner R, Ivleva NP.
+Raman microspectroscopic analysis of fibers in beverages. Anal.
+Methods. 2016. https://doi.org/10.1039/C6AY01184E .
+39. Prata JC, da Costa JP, Duarte AC, Rocha-Santos T. Methods for
+sampling and detection of microplastics in water and sediment: a
+critical review. Trends Analyt. Chem. 2019. https://doi.org/10.
+1016/j.trac.2018.10.029 .
+40. Toussaint B, Raffael B, Angers-Loustau A, Gilliland D, Kestens
+V, Petrillo M, et al. Review of micro- and nanoplastic contamina-
+tion in the food chain. Food Addit. Contam. Part A Chem. Anal.
+Control Expo. Risk Assess. 2019. https://doi.org/10.1080/
+19440049.2019.1583381 .
+41. Wesch C, Bredimus K, Paulus M, Klein R. Towards the suitable
+monitoring of ingestion of microplastics by marine biota: a review.Environ Pollut. 2016. https://doi.org/10.1016/j.envpol.2016.08.
+076.
+42. Wesch C, Elert AM, Wörner M, Braun U, Klein R, Paulus M.
+Assuring quality in microplastic monitoring: about the value ofclean-air devices as essentials for verified data. Sci Rep. 2017.https://doi.org/10.1038/s41598-017-05838-4 .5991 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+43. International Organization for Standardization (ISO). ISO 14644-
+1:2015: Cleanrooms and associated controlled environments - Part
+1: Classification of air cleanliness by particle concentration:ISO(14644-1); 2015. https://www.iest.org/Standards-RPs/ISO-
+Standards/ISO-14644-Series/ISO-14644-1 .A c c e s s e d1 6M a r
+2021.
+44. Lei K, Qiao F, Liu Q, Wei Z, Qi H, Cui S, et al. Microplastics
+releasing from personal care and cosmetic products in China. Mar.
+Pollut. Bull. 2017. https://doi.org/10.1016/j.marpolbul.2017.09.
+016.
+45. Witzig CS, Földi C, Wörle K, Habermehl P, Pittroff M, Müller
+YK, et al. When good intentions go bad —false positive
+microplastic detection caused by disposable gloves. Environ Sci
+Technol. 2020. https://doi.org/10.1021/acs.est.0c03742 .
+46. Li L, Zhao X, Li Z, Song K. COVID-19: Performance study of
+microplastic inhalation risk posed by wearing masks. J HazardMater. 2020. https://doi.org/10.1016/j.jhazmat.2020.124955 .
+47. Renzi M, Guerranti C, Bla škovićA. Microplastic contents from
+maricultured and natural mussels. Mar. Pollut. Bull. 2018. https://
+doi.org/10.1016/j.marpolbul.2018.04.035 .
+48. Gündo ğdu S. Contamination of table salts from Turkey with
+microplastics. Food Addit. Contam. Part A Chem. Anal. Control
+Expo. Risk Assess. 2018. https://doi.org/10.1080/19440049.
+2018.1447694 .
+49. Brandt J, Bittrich L, Fischer F, Kanaki E, Tagg A, Lenz R, et al.
+High-Throughput analyses of microplastic samples using Fourier
+transform infrared and Raman spectrometry. Appl. Spectrosc.2020. https://doi.org/10.1177/0003702820932926 .
+50. Dris R, Gasperi J, Rocher V, Tassin B. Synthetic and non-
+synthetic anthropogenic fibers in a river under the impact ofParis Megacity: sampling methodological aspects and flux esti-
+mations. Sci. Total Environ. 2018. https://doi. org/10.1016/j.
+scitotenv.2017.11.009 .
+51. Lusher AL, Munno K, Hermabessiere L, Carr S. Isolation and
+extraction of microplastics from environmental samples: an eval-
+uation of practical approaches and recommendations for furtherharmonization. Appl. Spectrosc. 2020. https://doi.org/10.1177/
+0003702820938993 .
+52. Weber F, Kerpen J, Wolff S, Langer R, Eschweiler V.
+Investigation of microplastics contamination in drinking water
+of a German city. Sci. Total Environ. 2021. https://doi.org/10.
+1016/j.scitotenv.2020.143421 .
+53. Johnson AC, Ball H, Cross R, Horton AA, Jürgens MD, Read DS,
+et al. Identification and quantification of microplastics in potable
+water and their sources within water treatment works in Englandand Wales. Environ Sci Technol. 2020. https://doi.org/10.1021/
+acs.est.0c03211 .
+54. Kirstein IV, Hensel F, Gomiero A, Iordachescu L, Vianello A,
+Wittgren HB, et al. Drinking plastics? - Quantification and quali-fication of microplastics in drinking water distribution systems byμFTIR and Py-GCMS. Water Res. 2021. https://doi.org/10.1016/
+j.watres.2020.116519 .
+55. Schymanski D, Goldbeck C, Fürst P, Humpf H-U.
+Kunststoffpartikel sind überall - auch in Lebensmitteln? Nachr.Chem. 2016. https://doi.org/10.1002/nadc.20164052892 .
+56. Petersen L, Minkkinen P, Esbensen KH. Representative sampling
+for reliable data analysis: theory of sampling. Chemometr. Intell.
+Lab. Syst. 2005. https://doi.org/10.1016/j.chemolab.2004.09.013 .
+57. Kankanige D, Babel S. Smaller-sized micro-plastics (MPs) con-
+tamination in single-use PET-bottled water in Thailand. Sci. TotalEnviron. 2020. https://doi.org/10.1016/j.scitotenv.2020.137232 .
+58. Shruti VC, Pérez-Guevara F, Kutralam-Muniasamy G. Metro sta-
+tion free drinking wa ter fountain- a potenti al "microplastics
+hotspot" for human consumption. Environ Pollut. 2020. https://
+doi.org/10.1016/j.envpol.2020.114227 .59. Mintenig SM, Löder MGJ, Primpke S, Gerdts G. Low numbers of
+microplastics detected in dri nking water from ground water
+sources. Sci. Total Environ. 2019. https://doi.org/10.1016/j.
+sc
+itotenv.2018.08.178 .
+60. Pittroff M, Müller YK, Witzig CS, Scheurer M, Storck FR,
+Zumbülte N. Microplastic analysis in drinking water based on
+fractionated filtration sampling and Raman microspectroscopy.
+Environ Sci Pollut Res Int. 2021. https://doi.org/10.1007/
+s11356-021-12467-y .
+61. Oßmann BE, Sarau G, Schmitt SW, Holtmannspötter H,
+Christiansen SH, Dicke W. Development of an optimal filter sub-
+strate for the identification of small microplastic particles in foodby micro-Raman spectroscopy. Anal Bioanal Chem. 2017. https://
+doi.org/10.1007/s00216-017-0358-y .
+62. von der Esch E, Kohles AJ, Anger PM, Hoppe R, Niessner R,
+Elsner M, et al. TUM-ParticleTyper : a detection and quantification
+tool for automated analysis of (Microplastic) particles and fibers.PLoS ONE. 2020. https://doi.org/10.1371/journal.pone.0234766 .
+63. Primpke S, Dias AP, Gerdts G, et al. Anal. Methods. 2019. https://
+doi.org/10.1039/C9AY00126C .
+64. Weisser J, Beer I, Hufnagl B, Hofmann T, Lohninger H, Ivleva
+NP, et al. From the well to the bottle: identifying sources of
+microplastics in mineral water. Water. 2021. https://doi.org/10.
+3390/w13060841 .
+65. Löder M, Gerdts G. Methodology used for the detection and iden-
+tification of microplastics - a critical appraisal. In: Bergmann M,
+Gutow L, Klages M, editors. Marine anthropogenic litter: Springer
+International Publishing; 2015. pp. 201 –227.
+66. Käppler A, Windrich F, Löder MGJ, Malanin M, Fischer D,
+Labrenz M, et al. Identification of microplastics by FTIR and
+Raman microscopy: a novel silicon filter substrate opens the im-portant spectral range below 1300 cm(-1) for FTIR transmissionmeasurements. Anal Bioanal Chem. 2015. https://doi.org/10.
+1007/s00216-015-8850-8 .
+67. van Cauwenberghe L, Janssen CR. Microplastics in bivalves cul-
+tured for human consumption. Environ. Pollut. 2014. https://doi.
+org/10.1016/j.envpol.2014.06.010 .
+68. Yang D, Shi H, Li L, Li J, Jabeen K, Kolandhasamy P.
+Microplastic pollution in table salts from china. Environ SciTechnol. 2015. https://doi.org/10.1021/acs.est.5b03163 .
+69. von der Esch E, Lanzinger M, Kohles AJ, Schwaferts C, Weisser
+J, Hofmann T, et al. Simple generation of suspensible secondary
+microplastic reference particles via ultrasound treatment. Front
+Chem. 2020. https://doi.org/10.3389/fchem.2020.00169 .
+70. Cabernard L, Roscher L, Lorenz C, Gerdts G, Primpke S.
+Comparison of Raman and Fourier transform infrared spectrosco-py for the quantification of microplastics in the aquatic environ-
+ment. Environ Sci Technol. 2018. https://doi.org/10.1021/acs.est.
+8b03438 .
+71. Simon M, van Alst N, Vollertsen J. Quantification of microplastic
+mass and removal rates at wastewater treatment plants applying focal
+plane array (FPA)-based Fourier tra nsform infrared (FT-IR) imaging.
+Water Res. 2018. https://doi.org/10.1016/j.watres.2018.05.019 .
+72. Löder MGJ, Kuczera M, Mintenig S, Lorenz C, Gerdts G. Focal
+plane array detector-based micro-Fourier-transform infrared imag-
+ing for the analysis of microplastics in environmental samples.
+Environ. Chem. 2015. https://doi.org/10.1071/EN14205 .
+73. Vianello A, Jensen RL, Liu L, Vollertsen J. Simulating human expo-
+sure to indoor airborne microplastics using a breathing thermal man-ikin. Sci Rep. 2019. https://doi.org/10.1038/s41598-019-45054-w .
+74. Primpke S, Wirth M, Lorenz C, Gerdts G. Reference database
+design for the automated analysis of microplastic samples based
+on Fourier transform infrared (FTIR) spectroscopy. Anal Bioanal
+Chem. 2018. https://doi.org/10.1007/s00216-018-1156-x .
+75. Primpke S, Fischer M, Lorenz C, Gerdts G, Scholz-Böttcher BM.
+Comparison of pyrolysis gas chromatography/mass spectrometry5992 Schymanski D. et al.
+and hyperspectral FTIR imaging spectroscopy for the analysis of
+microplastics. Anal Bioanal Chem. 2020. https://doi.org/10.1007/
+s00216-020-02979-w .
+76. Liu F, Olesen KB, Borregaard AR, Vollertsen J. Microplastics in
+urban and highway stormwater retention ponds. Sci. Total
+Environ. 2019. https://doi.org/10.1016/j.scitotenv.2019.03.416 .
+77. Renner G, Schmidt TC, Schram J. Characterization and quantifi-
+cation of microplastics by infrared spectroscopy. In: Rocha-Santos
+TAP, Duarte AC, editors. Characterization and analysis of
+microplastics, vol. 75. Amsterdam: Elsevier; 2017. p. 67 –118.
+78. Harrison JP, Ojeda JJ, Romero-González ME. The applicability of
+reflectance micro-Fourier-transform infrared spectroscopy for the de-tection of synthetic microplastics in marine sediments. Sci. TotalEnviron. 2012. https://doi.org/10.1016/j.scitotenv.2011.11.078 .
+79. Primpke S, Cross RK, Mintenig SM, Simon M, Vianello A,
+Gerdts G, et al. Toward the systematic identification ofmicroplastics in the environment: Evaluation of a new indepen-dent software tool (siMPle) for spectroscopic analysis. Appl.Spectrosc. 2020. https://doi.org/10.1177/0003702820917760 .
+80. Cowger W, Gray A, Christiansen SH, de Frond H, Deshpande A,
+Hermabessiere L, et al. Critical review of processing and classifi-
+cation techniques for images and spectra in microplastic research.
+Appl. Spectrosc. 2020. https://doi.org/10.1177/
+0003702820929064 .
+81. Primpke S, Godejohann M, Gerdts G. Rapid identification and
+quantification of microplastics in the environment by quantum
+cascade laser-based hyperspectral infrared chemical imaging.
+Environ Sci Technol. 2020. https://doi.org/10.1021/acs.est.
+0c05722 .
+82. Li Q, Zeng A, Jiang X, Gu X. Are microplastics correlated to
+phthalates in facility agriculture soil? J Hazard Mater. 2021.https://doi.org/10.1016/j.jhazmat.2021.125164 .
+83. Ng EL, Lin SY, Dungan AM, Colwell JM, Ede S, Huerta Lwanga
+E, et al. Microplastic pollution alters forest soil microbiome. JHazard Mater. 2021. https://doi.org/10.1016/j.jhazmat.2020.
+124606 .
+84. Mughini-Gras L, van der Plaats RQJ, van der Wielen PWJJ,
+Bauerlein PS, de Roda Husman AM. Water Res. 2021. https://
+doi.org/10.1016/j.watres.2021.116852 .
+85. Scircle A, Cizdziel JV, Tisinger L, Anumol T, Robey D.
+Occurrence of microplastic pollution at oyster reefs and othercoastal sites in the Mississippi Sound, USA: impacts of freshwaterinflows from flooding. Toxics. 2020. https://doi.org/10.3390/
+toxics8020035 .
+86. Käppler A, Fischer D, Oberbeckmann S, Schernewski G, Labrenz
+M, Eichhorn K-J, et al. Analysis of environmental microplastics
+by vibrational microspectroscopy: FTIR, Raman or both? Anal
+Bioanal Chem. 2016. https://doi.org/10.1007/s00216-016-9956-3 .
+87. Anger PM, von der Esch E, Baumann T, Elsner M, Niessner R,
+Ivleva NP. Raman microspectroscopy as a tool for microplasticparticle analysis. Trends Analyt. Chem. 2018. https://doi.org/10.
+1016/j.trac.2018.10.010 .
+88. Frère L, Paul-Pont I, Moreau J, Soudant P, Lambert C, Huvet A,
+et al. A semi-automated Raman micro-spectroscopy method formorphological and chemical characterizations of microplastic lit-ter. Mar. Pollut. Bull. 2016. https://doi.org/10.1016/j.marpolbul.
+2016.10.051 .
+89. Domogalla-Urbansky J, Anger PM, Ferling H, Rager F, Wiesheu
+AC, Niessner R, et al. Raman microspectroscopic identification ofmicroplastic particles in freshwater bivalves (Unio pictorum) ex-posed to sewage treatment plant effluents under different exposurescenarios. Environ Sci Pollut Res Int. 2019. https://doi.org/10.
+1007/s11356-018-3609-3 .
+90. Jakubek RS, Fries MD. Calibration of Raman wavenumber in
+large Raman images using a mercury-argon lamp. J. RamanSpectrosc. 2020. https://doi.org/10.1002/jrs.5887 .91. Gy P. Sampling of particulate materials theory and practice.
+Developments in geomathematics, vol. 4. Burlington: ElsevierScience; 1979.
+92. Thaysen C, Munno K, Hermabessiere L, Rochman CM. Towards
+Raman automation for microplastics: developing strategies forparticle adhesion and filter subsampling. Appl. Spectrosc. 2020.https://doi.org/10.1177/0003702820922900 .
+93. Minkkinen PO, Esbensen KH. Sampling of particulate materials
+with significant spatial heterogeneity - theoretical modification ofgrouping and segregation factors involved with correct sampling
+errors: fundamental sampling error and grouping and segregation
+error. Anal Chim Acta. 2019. https://doi.org/10.1016/j.aca.2018.
+10.056 .
+94. Brandt J, Fischer F, Kanaki E, Enders K, Labrenz M, Fischer D.
+Assessment of subsampling strategies in microspectroscopy of
+environmental microplastic samples. Front. Environ. Sci. 2021.ht
+tps://doi.org/10.3389/fenvs.2020.579676 .
+95. Schwaferts C, Schwaferts P, von der Esch E, Elsner M, Ivleva NP.
+Which particles to select, and if yes, how many?: subsampling
+methods for Raman microspectroscopic analysis of very small
+microplastic. Anal Bioanal Chem. 2021. https://doi.org/10.1007/
+s00216-021-03326-3 .
+96. Sobhani Z, Zhang X, Gibson C, Naidu R, Megharaj M, Fang C.
+Identification and visualisation of microplastics/nanoplastics byRaman imaging (i): down to 100 nm. Water Res. 2020. https://
+doi.org/10.1016/j.watres.2020.115658 .
+97. Fang C, Sobhani Z, Zhang X, Gibson CT, Tang Y, Naidu R.
+Identification and visualisation of microplastics/ nanoplastics by
+Raman imaging (ii): smaller than the diffraction limit of laser?
+Water Res. 2020. https://doi.org/10.1016/j.watres.2020.116046 .
+98. Gillibert R, Balakrishnan G, Deshoules Q, Tardivel M, Magazzù
+A, Donato MG, et al. Raman tweezers for small microplastics andnanoplastics identification in seawater. Environ Sci Technol.2019. https://doi.org/10.1021/acs.est.9b03105 .
+99. Schwaferts C, Sogne V, Welz R, Meier F, Klein T, Niessner R,
+et al. Nanoplastic analysis by online coupling of Raman micros-copy and field-flow fractionation enabled by optical tweezers.
+Anal. Chem. 2020. https://doi.org/10.1021/acs.analchem.
+9b05336 .
+100. Dazzi A, Prater CB. AFM-IR: Technology and Applications in
+Nanoscale Infrared Spectroscopy and Chemical Imaging. Chem
+Rev. 2017. https://doi.org/10.1021/acs.chemrev.6b00448 .
+101. Meyns M, Primpke S, Gerdts G. Library based identification and
+characterisation of polymers with nano-FTIR and IR-sSNOM im-aging. Anal. Methods. 2019. https://doi.org/10.1039/
+C9AY01193E .
+102. Zhou X-X, Liu R, Hao L-T, Liu J-F. Identification of polystyrene
+nanoplastics using surface enhanced Raman spectroscopy.
+Talanta. 2021. https://doi.org/10.1016/j.talanta.2020.121552 .
+103. Kurouski D, Dazzi A, Zenobi R, Centrone A. Infrared and Raman
+chemical imaging and spectroscopy at the nanoscale. Chem SocRev. 2020. https://doi.org/10.1039/C8CS00916C .
+104. Hufnagl B, Steiner D, Renner E, Löder MGJ, Laforsch C,
+Lohninger H. A methodology for the fast identification and mon-
+itoring of microplastics in environmental samples using randomdecision forest classifiers. Anal. Methods. 2019. https://doi.org/
+10.1039/c9ay00252a .
+105. Primpke S, Lorenz C, Rascher-Friesenhausen R, Gerdts G. An
+automated approach for microplastics analysis using focal planearray (FPA) FTIR microscopy and image analysis. Anal. Methods.
+2017. https://doi.org/10.1039/C6AY02476A .
+106. Kwiatkowski A, Gnyba M, Smulko J, Wierzba P. Algorithms of
+chemicals detection using Raman spectra. Metrology and
+Measurement Systems. 2010. https://doi.org/10.2478/v10178-
+010-0045-1 .5993 Analysis of microplastics in drinking water and other clean water samples with micro-Raman and...
+107. Liland KH, Almøy T, Mevik B-H. Optimal choice of baseline
+correction for multivariate calibration of spectra. Appl.
+Spectrosc. 2010;64:1007 –16.
+108. Woodall LC, Sanchez-Vidal A, Canals M, Paterson GLJ,
+Coppock R, Sleight V, et al. The deep sea is a major sink formicroplastic debris. R. Soc. Open Sci. 2014. https://doi.org/10.
+1098/rsos.140317 .
+109. Renner G, Nellessen A, Schwiers A, Wenzel M, Schmidt TC, Schram
+J. Data preprocessing & evaluation used in the microplastics identifi-
+cation process: a critical review & practical guide. Trends Analyt.
+Chem. 2019. https://doi.org/10.101 6/j.trac.2018.12.004 .
+110. Kroon F, Motti C, Talbot S, Sobral P, Puotinen M. A workflow for
+improving estimates of microplastic contamination in marine wa-ters: a case study from North-Western Australia. Environ Pollut.2018. https://doi.org/10.1016/j.envpol.2018.03.010 .
+111. Smith BC. Fundamentals of Fourier transform infrared spectros-
+copy: CRC Press; 2011.
+112. Munno K, de Frond H, O'Donnell B, Rochman CM. Increasing
+the accessibility for characterizing microplastics: introducing new
+application-based and spectral libraries of plastic particles (SLoPP
+and SLoPP-E). Anal. Chem. 2020. https://doi.org/10.1021/acs.
+analchem.9b03626 .
+113. Cowger W, Steinmetz Z, Gray A, Munno K, Lynch J, Hapich H,
+et al. Microplastic spectral classification needs an open source
+community: Open Specy to the rescue! Anal. Chem. 2021.
+https://doi.org/10.1021/acs.analchem.1c00123 .
+114. Wang Z, Lin T, Chen W. Occurrence and removal of microplastics
+in an advanced drinking water treatment plant (ADWTP). Sci.Total Environ. 2020. https://doi.org/10.1016/j.scitotenv.2019.
+134520 .
+115. Zhang M, Li J, Ding H, Ding J, Jiang F, Ding NX, et al.
+Distribution characteristics and influencing factors of
+microplastics in urban tap water and water sources in Qingdao.
+China. Anal. Lett. 2020. https://doi.org/10.1080/00032719.2019.
+1705476 .
+116. Woodall LC, Gwinnett C, Packer M, Thompson RC, Robinson
+LF, Paterson GLJ. Using a forensic science approach to minimizeenvironmental contamination and to identify microfibres in marine
+sediments. Mar. Pollut. Bull. 2015. https://doi.org/10.1016/j.
+marpolbul.2015.04.044 .
+117. Kosuth M, Mason SA, Wattenberg EV. Anthropogenic contami-
+nation of tap water, beer, and sea salt. PLoS ONE. 2018. https://
+doi.org/10.1371/journal.pone.0194970 .
+118. Eerkes-Medrano D, Leslie HA, Quinn B. Microplastics in drink-
+ing water: a review and assessment. Curr. Opin. Environ. Sci.Health. 2019. https://doi.org/10.1016/j.coesh.2018.12.001 .
+119. Schymanski D, Humpf H-U, Fürst P. Determination of particle
+abrasion through milling with five different salt grinders by
+micro-Raman spectroscopy –a preliminary study with efforts to-
+wards improved quality control of the analytical methods. FoodAddit. Contam. Part A Chem. Anal. Control Expo. Risk Assess.
+2020. https://doi.org/10.1080/19440049.2020.1748724 .
+120. Seghers J, Stefaniak EA, La Spina R, Cella C, Mehn D, Gilliland
+D, et al. Preparation of a reference material for microplastics in
+water —evaluation of homogeneity. Anal Bioanal Chem. 2021.
+https://doi.org/10.1007/s00216-021-03198-7 .
+121. Cammann K. editor. Instrume ntelle analytische Chemie:
+Verfahren, Anwendungen und Qualitätssicherung. SpektrumLehrbuch. Heidelberg: Spektrum Akademischer Verlag; 2001.
+122. Horton AA, Cross RK, Read DS, Jürgens MD, Ball HL, Svendsen
+C, et al. Semi-automated analysis of microplastics in complexwastewater samples. Environ Pollut. 2020. https://doi.org/10.
+1016/j.envpol.2020.115841 .
+123. Waddell EN, Lascelles N, Conkle JL. Microplastic contamination
+in Corpus Christi Bay blue crabs. Callinectes sapidus. LimnolOceanogr. 2020. https://doi.org/10.1002/lol2.10142 .
+124. Filella M. Questions of size and numbers in environmental re-
+search on microplastics: methodological and conceptual aspects.Environ. Chem. 2015. https://doi.org/10.1071/EN15012 .
+125. SCCWRP-Project. SCCWRP-Project. https://www.sccwrp.org/
+news/international-study-kicks-off-to-standardize-microplastics-
+monitoring-methods/ .
+126. Isobe A, Buenaventura NT, Chastain S, Chavanich S, Cózar A,
+DeLo
+renzo M, et al. An interlaboratory comparison exercise for the
+determination of microplastics in standard sample bottles. Mar. Pollut.Bull. 2019. https://doi.org/10.1016/j.marpolbul.2019.07.033 .
+127. European Parliament and of the Council on the quality of water
+intended for human consumption. Proposal for a Directive of the
+European Parliament and of the Council on the quality of water
+intended for human consumption (recast) - Political agreement ST
+6060 2020 REV 1, vol. 2020.
+128. Tekman MB, Wekerle C, Lorenz C, Primpke S, Hasemann C,
+Gerdts G, et al. Tying up loose ends of microplastic pollution in
+the Arctic: distribution from the sea surface through the water
+column to deep-sea sediments at the HAUSGARTENObservatory. Environ Sci Technol. 2020. https://doi.org/10.
+1021/acs.est.9b06981 .
+129. Pivokonský M, Pivokonská L, Novotná K, Čermáková L,
+Klimtová M. Occurrence and fate of microplastics at two differentdrinking water treatment plants within a river catchment. Sci.Total Environ. 2020. https://doi.org/10.1016/j.scitotenv.2020.
+140236 .
+130. Koelmans AA, Redondo-Hasselerharm PE, Mohamed Nor NH,
+Kooi M. Solving the nonalignment of methods and approachesused in microplastic research to consistently characterize risk.
+Environ Sci Technol. 2020. https://doi.org/10.1021/acs.est.
+0c02982 .
+Publisher ’sn o t e Springer Nature remains neutral with regard to jurisdic-
+tional claims in published maps and institutional affiliations.5994 Schymanski D. et al.

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import UploadAnalyzer from '../components/UploadAnalyzer'
+import ResearchInsights from '../components/ResearchInsights'
 
 
 
@@ -197,7 +198,10 @@ export default function AquaTrace() {
           {/* Section 9: Live AI Analysis */}
           <UploadAnalyzer />
 
-          {/* Section 10: Closing */}
+          {/* Section 10: Research Insights */}
+          <ResearchInsights />
+
+          {/* Section 11: Closing */}
           <section className="bg-sec section-padding border-b-thin">
             <div className="container two-col">
               <h2 className="headline-medium reveal">
